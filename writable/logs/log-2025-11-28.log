@@ -1,0 +1,286 @@
+CRITICAL - 2025-11-28 07:11:39 --> CodeIgniter\Filters\Exceptions\FilterException: "auth" filter must have a matching alias defined.
+[Method: GET, Route: /]
+in SYSTEMPATH\Filters\Filters.php on line 590.
+ 1 SYSTEMPATH\Filters\Filters.php(590): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+ 2 SYSTEMPATH\Filters\Filters.php(641): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-28 07:13:14 --> CodeIgniter\Filters\Exceptions\FilterException: "forcehttps" filter must have a matching alias defined.
+[Method: GET, Route: /]
+in SYSTEMPATH\Filters\Filters.php on line 402.
+ 1 SYSTEMPATH\Filters\Filters.php(402): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('forcehttps')
+ 2 SYSTEMPATH\Filters\Filters.php(319): CodeIgniter\Filters\Filters->getRequiredFilters('before')
+ 3 SYSTEMPATH\Filters\Filters.php(353): CodeIgniter\Filters\Filters->getRequiredClasses('before')
+ 4 SYSTEMPATH\CodeIgniter.php(387): CodeIgniter\Filters\Filters->runRequired('before')
+ 5 SYSTEMPATH\CodeIgniter.php(347): CodeIgniter\CodeIgniter->runRequiredBeforeFilters(Object(CodeIgniter\Filters\Filters))
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-28 07:16:58 --> CodeIgniter\Filters\Exceptions\FilterException: "forcehttps" filter must have a matching alias defined.
+[Method: GET, Route: /]
+in SYSTEMPATH\Filters\Filters.php on line 402.
+ 1 SYSTEMPATH\Filters\Filters.php(402): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('forcehttps')
+ 2 SYSTEMPATH\Filters\Filters.php(319): CodeIgniter\Filters\Filters->getRequiredFilters('before')
+ 3 SYSTEMPATH\Filters\Filters.php(353): CodeIgniter\Filters\Filters->getRequiredClasses('before')
+ 4 SYSTEMPATH\CodeIgniter.php(387): CodeIgniter\Filters\Filters->runRequired('before')
+ 5 SYSTEMPATH\CodeIgniter.php(347): CodeIgniter\CodeIgniter->runRequiredBeforeFilters(Object(CodeIgniter\Filters\Filters))
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-28 07:16:59 --> CodeIgniter\Filters\Exceptions\FilterException: "forcehttps" filter must have a matching alias defined.
+[Method: GET, Route: /]
+in SYSTEMPATH\Filters\Filters.php on line 402.
+ 1 SYSTEMPATH\Filters\Filters.php(402): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('forcehttps')
+ 2 SYSTEMPATH\Filters\Filters.php(319): CodeIgniter\Filters\Filters->getRequiredFilters('before')
+ 3 SYSTEMPATH\Filters\Filters.php(353): CodeIgniter\Filters\Filters->getRequiredClasses('before')
+ 4 SYSTEMPATH\CodeIgniter.php(387): CodeIgniter\Filters\Filters->runRequired('before')
+ 5 SYSTEMPATH\CodeIgniter.php(347): CodeIgniter\CodeIgniter->runRequiredBeforeFilters(Object(CodeIgniter\Filters\Filters))
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-28 07:16:59 --> CodeIgniter\Filters\Exceptions\FilterException: "forcehttps" filter must have a matching alias defined.
+[Method: GET, Route: /]
+in SYSTEMPATH\Filters\Filters.php on line 402.
+ 1 SYSTEMPATH\Filters\Filters.php(402): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('forcehttps')
+ 2 SYSTEMPATH\Filters\Filters.php(319): CodeIgniter\Filters\Filters->getRequiredFilters('before')
+ 3 SYSTEMPATH\Filters\Filters.php(353): CodeIgniter\Filters\Filters->getRequiredClasses('before')
+ 4 SYSTEMPATH\CodeIgniter.php(387): CodeIgniter\Filters\Filters->runRequired('before')
+ 5 SYSTEMPATH\CodeIgniter.php(347): CodeIgniter\CodeIgniter->runRequiredBeforeFilters(Object(CodeIgniter\Filters\Filters))
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-28 07:17:00 --> CodeIgniter\Filters\Exceptions\FilterException: "forcehttps" filter must have a matching alias defined.
+[Method: GET, Route: /]
+in SYSTEMPATH\Filters\Filters.php on line 402.
+ 1 SYSTEMPATH\Filters\Filters.php(402): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('forcehttps')
+ 2 SYSTEMPATH\Filters\Filters.php(319): CodeIgniter\Filters\Filters->getRequiredFilters('before')
+ 3 SYSTEMPATH\Filters\Filters.php(353): CodeIgniter\Filters\Filters->getRequiredClasses('before')
+ 4 SYSTEMPATH\CodeIgniter.php(387): CodeIgniter\Filters\Filters->runRequired('before')
+ 5 SYSTEMPATH\CodeIgniter.php(347): CodeIgniter\CodeIgniter->runRequiredBeforeFilters(Object(CodeIgniter\Filters\Filters))
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-28 07:17:00 --> CodeIgniter\Filters\Exceptions\FilterException: "forcehttps" filter must have a matching alias defined.
+[Method: GET, Route: /]
+in SYSTEMPATH\Filters\Filters.php on line 402.
+ 1 SYSTEMPATH\Filters\Filters.php(402): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('forcehttps')
+ 2 SYSTEMPATH\Filters\Filters.php(319): CodeIgniter\Filters\Filters->getRequiredFilters('before')
+ 3 SYSTEMPATH\Filters\Filters.php(353): CodeIgniter\Filters\Filters->getRequiredClasses('before')
+ 4 SYSTEMPATH\CodeIgniter.php(387): CodeIgniter\Filters\Filters->runRequired('before')
+ 5 SYSTEMPATH\CodeIgniter.php(347): CodeIgniter\CodeIgniter->runRequiredBeforeFilters(Object(CodeIgniter\Filters\Filters))
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-28 07:17:05 --> CodeIgniter\Filters\Exceptions\FilterException: "forcehttps" filter must have a matching alias defined.
+[Method: GET, Route: /]
+in SYSTEMPATH\Filters\Filters.php on line 402.
+ 1 SYSTEMPATH\Filters\Filters.php(402): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('forcehttps')
+ 2 SYSTEMPATH\Filters\Filters.php(319): CodeIgniter\Filters\Filters->getRequiredFilters('before')
+ 3 SYSTEMPATH\Filters\Filters.php(353): CodeIgniter\Filters\Filters->getRequiredClasses('before')
+ 4 SYSTEMPATH\CodeIgniter.php(387): CodeIgniter\Filters\Filters->runRequired('before')
+ 5 SYSTEMPATH\CodeIgniter.php(347): CodeIgniter\CodeIgniter->runRequiredBeforeFilters(Object(CodeIgniter\Filters\Filters))
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-28 11:46:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 11:48:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 11:48:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 11:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 11:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 11:49:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 11:49:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 11:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 11:52:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 11:54:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 11:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 11:58:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 11:58:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 11:58:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 11:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 11:59:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 11:59:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 12:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 12:06:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 12:06:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 12:07:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 12:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 12:11:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 12:12:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 12:14:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 12:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 12:16:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 12:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 12:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 12:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 12:20:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 12:22:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 12:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 12:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 12:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 12:24:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 12:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 12:26:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 12:34:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 12:34:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 23:26:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 23:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 23:36:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-28 23:36:18 --> mysqli_sql_exception: Column 'naran_kategoria' cannot be null in C:\laragon\www\Sistema_Manajementu_Loja\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\laragon\www\Sistema_Manajementu_Loja\app\Models\M_Kategoria.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\Sistema_Manajementu_Loja\app\Controllers\Kategoria.php(45): App\Models\M_kategoria->insertkategoria(Array)
+#6 C:\laragon\www\Sistema_Manajementu_Loja\system\CodeIgniter.php(933): App\Controllers\Kategoria->store()
+#7 C:\laragon\www\Sistema_Manajementu_Loja\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategoria))
+#8 C:\laragon\www\Sistema_Manajementu_Loja\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\Sistema_Manajementu_Loja\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\Sistema_Manajementu_Loja\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\Sistema_Manajementu_Loja\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-11-28 23:36:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'naran_kategoria' cannot be null
+[Method: POST, Route: kategoria/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_kategoria` (`id_kategoria`, `naran_kategoria`, `deskrisaun`) VALUES (:id_kategoria:, :naran_kategoria:, :deskrisaun:)', [...], false)
+ 2 APPPATH\Models\M_Kategoria.php(28): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Kategoria.php(45): App\Models\M_kategoria->insertkategoria([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kategoria->store()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategoria))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-28 23:36:18 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'naran_kategoria' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_kategoria` (`id_kategoria`, `naran_kategoria`, `deskrisaun`) VALUES (NULL, NULL, \'dsdsd\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_kategoria` (`id_kategoria`, `naran_kategoria`, `deskrisaun`) VALUES (NULL, NULL, \'dsdsd\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_kategoria` (`id_kategoria`, `naran_kategoria`, `deskrisaun`) VALUES (:id_kategoria:, :naran_kategoria:, :deskrisaun:)', [...], false)
+ 4 APPPATH\Models\M_Kategoria.php(28): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Kategoria.php(45): App\Models\M_kategoria->insertkategoria([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kategoria->store()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategoria))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-28 23:36:18 --> [Caused by] mysqli_sql_exception: Column 'naran_kategoria' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `tbl_kategoria` (`id_kategoria`, `naran_kategoria`, `deskrisaun`) VALUES (NULL, NULL, \'dsdsd\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_kategoria` (`id_kategoria`, `naran_kategoria`, `deskrisaun`) VALUES (NULL, NULL, \'dsdsd\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_kategoria` (`id_kategoria`, `naran_kategoria`, `deskrisaun`) VALUES (NULL, NULL, \'dsdsd\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_kategoria` (`id_kategoria`, `naran_kategoria`, `deskrisaun`) VALUES (:id_kategoria:, :naran_kategoria:, :deskrisaun:)', [...], false)
+ 5 APPPATH\Models\M_Kategoria.php(28): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Kategoria.php(45): App\Models\M_kategoria->insertkategoria([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kategoria->store()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategoria))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-28 23:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 23:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 23:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 23:38:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-28 23:38:11 --> mysqli_sql_exception: Column 'naran_kategoria' cannot be null in C:\laragon\www\Sistema_Manajementu_Loja\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\laragon\www\Sistema_Manajementu_Loja\app\Models\M_Kategoria.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\Sistema_Manajementu_Loja\app\Controllers\Kategoria.php(45): App\Models\M_kategoria->insertkategoria(Array)
+#6 C:\laragon\www\Sistema_Manajementu_Loja\system\CodeIgniter.php(933): App\Controllers\Kategoria->store()
+#7 C:\laragon\www\Sistema_Manajementu_Loja\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategoria))
+#8 C:\laragon\www\Sistema_Manajementu_Loja\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\Sistema_Manajementu_Loja\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\Sistema_Manajementu_Loja\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\Sistema_Manajementu_Loja\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-11-28 23:38:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'naran_kategoria' cannot be null
+[Method: POST, Route: kategoria/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_kategoria` (`id_kategoria`, `naran_kategoria`, `deskrisaun`) VALUES (:id_kategoria:, :naran_kategoria:, :deskrisaun:)', [...], false)
+ 2 APPPATH\Models\M_Kategoria.php(28): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Kategoria.php(45): App\Models\M_kategoria->insertkategoria([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kategoria->store()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategoria))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-28 23:38:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'naran_kategoria' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_kategoria` (`id_kategoria`, `naran_kategoria`, `deskrisaun`) VALUES (NULL, NULL, \'dsdsd\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_kategoria` (`id_kategoria`, `naran_kategoria`, `deskrisaun`) VALUES (NULL, NULL, \'dsdsd\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_kategoria` (`id_kategoria`, `naran_kategoria`, `deskrisaun`) VALUES (:id_kategoria:, :naran_kategoria:, :deskrisaun:)', [...], false)
+ 4 APPPATH\Models\M_Kategoria.php(28): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Kategoria.php(45): App\Models\M_kategoria->insertkategoria([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kategoria->store()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategoria))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-28 23:38:11 --> [Caused by] mysqli_sql_exception: Column 'naran_kategoria' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `tbl_kategoria` (`id_kategoria`, `naran_kategoria`, `deskrisaun`) VALUES (NULL, NULL, \'dsdsd\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_kategoria` (`id_kategoria`, `naran_kategoria`, `deskrisaun`) VALUES (NULL, NULL, \'dsdsd\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_kategoria` (`id_kategoria`, `naran_kategoria`, `deskrisaun`) VALUES (NULL, NULL, \'dsdsd\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_kategoria` (`id_kategoria`, `naran_kategoria`, `deskrisaun`) VALUES (:id_kategoria:, :naran_kategoria:, :deskrisaun:)', [...], false)
+ 5 APPPATH\Models\M_Kategoria.php(28): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Kategoria.php(45): App\Models\M_kategoria->insertkategoria([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kategoria->store()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategoria))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-28 23:38:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 23:38:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 23:39:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 23:39:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 23:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 23:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 23:39:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 23:41:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 23:41:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 23:41:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 23:41:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 23:41:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 23:41:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 23:41:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 23:41:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 23:42:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 23:42:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 23:42:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 23:43:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 23:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 23:43:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 23:43:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 23:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 23:44:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 23:44:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 23:44:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 23:44:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 23:44:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 23:44:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 23:44:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 23:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 23:44:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 23:44:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 23:45:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 23:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 23:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 23:45:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 23:45:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 23:46:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 23:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 23:53:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 23:55:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 23:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 23:56:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

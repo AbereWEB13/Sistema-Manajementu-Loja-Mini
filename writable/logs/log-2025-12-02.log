@@ -1,0 +1,1469 @@
+DEBUG - 2025-12-02 05:09:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 05:09:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 05:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 05:09:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 05:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 05:17:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-12-02 05:17:11 --> mysqli_sql_exception: Unknown column 'tbl_fornesedor.deskrisaun' in 'field list' in C:\laragon\www\Sistema_Manajementu_Loja\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tbl_kom...', 0)
+#1 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_kom...')
+#2 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_kom...')
+#3 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_kom...', Array, false)
+#4 C:\laragon\www\Sistema_Manajementu_Loja\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Sistema_Manajementu_Loja\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Sistema_Manajementu_Loja\app\Controllers\Kompras.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Sistema_Manajementu_Loja\system\CodeIgniter.php(933): App\Controllers\kompras->index()
+#8 C:\laragon\www\Sistema_Manajementu_Loja\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kompras))
+#9 C:\laragon\www\Sistema_Manajementu_Loja\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Sistema_Manajementu_Loja\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\Sistema_Manajementu_Loja\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\laragon\www\Sistema_Manajementu_Loja\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-12-02 05:17:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_fornesedor.deskrisaun' in 'field list'
+[Method: GET, Route: kompras]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_kompras`.`id_kompras`, `tbl_kompras`.`kode_kompras`, `tbl_kompras`.`data_kompras`, `tbl_fornesedor`.`deskrisaun`
+FROM `tbl_kompras`
+JOIN `tbl_fornesedor` ON `tbl_fornesedor`.`id_fornesedor` = `tbl_kompras`.`id_fornesedor`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Kompras.php(26): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\kompras->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kompras))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-02 05:17:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_fornesedor.deskrisaun' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_kompras`.`id_kompras`, `tbl_kompras`.`kode_kompras`, `tbl_kompras`.`data_kompras`, `tbl_fornesedor`.`deskrisaun`
+FROM `tbl_kompras`
+JOIN `tbl_fornesedor` ON `tbl_fornesedor`.`id_fornesedor` = `tbl_kompras`.`id_fornesedor`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_kompras`.`id_kompras`, `tbl_kompras`.`kode_kompras`, `tbl_kompras`.`data_kompras`, `tbl_fornesedor`.`deskrisaun`
+FROM `tbl_kompras`
+JOIN `tbl_fornesedor` ON `tbl_fornesedor`.`id_fornesedor` = `tbl_kompras`.`id_fornesedor`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_kompras`.`id_kompras`, `tbl_kompras`.`kode_kompras`, `tbl_kompras`.`data_kompras`, `tbl_fornesedor`.`deskrisaun`
+FROM `tbl_kompras`
+JOIN `tbl_fornesedor` ON `tbl_fornesedor`.`id_fornesedor` = `tbl_kompras`.`id_fornesedor`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Kompras.php(26): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\kompras->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kompras))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-02 05:17:12 --> [Caused by] mysqli_sql_exception: Unknown column 'tbl_fornesedor.deskrisaun' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tbl_kompras`.`id_kompras`, `tbl_kompras`.`kode_kompras`, `tbl_kompras`.`data_kompras`, `tbl_fornesedor`.`deskrisaun`
+FROM `tbl_kompras`
+JOIN `tbl_fornesedor` ON `tbl_fornesedor`.`id_fornesedor` = `tbl_kompras`.`id_fornesedor`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_kompras`.`id_kompras`, `tbl_kompras`.`kode_kompras`, `tbl_kompras`.`data_kompras`, `tbl_fornesedor`.`deskrisaun`
+FROM `tbl_kompras`
+JOIN `tbl_fornesedor` ON `tbl_fornesedor`.`id_fornesedor` = `tbl_kompras`.`id_fornesedor`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_kompras`.`id_kompras`, `tbl_kompras`.`kode_kompras`, `tbl_kompras`.`data_kompras`, `tbl_fornesedor`.`deskrisaun`
+FROM `tbl_kompras`
+JOIN `tbl_fornesedor` ON `tbl_fornesedor`.`id_fornesedor` = `tbl_kompras`.`id_fornesedor`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_kompras`.`id_kompras`, `tbl_kompras`.`kode_kompras`, `tbl_kompras`.`data_kompras`, `tbl_fornesedor`.`deskrisaun`
+FROM `tbl_kompras`
+JOIN `tbl_fornesedor` ON `tbl_fornesedor`.`id_fornesedor` = `tbl_kompras`.`id_fornesedor`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Kompras.php(26): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\kompras->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kompras))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-02 05:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 05:18:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 05:18:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 05:18:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-02 05:19:44 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "kompras/add.php"
+[Method: GET, Route: kompras/add]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kompras/add.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('kompras/add', [], true)
+ 3 APPPATH\Controllers\Kompras.php(44): view('kompras/add', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\kompras->create()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kompras))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-02 05:20:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 05:20:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-02 05:20:16 --> ErrorException: Undefined variable $kategoria
+[Method: GET, Route: kompras/add]
+in APPPATH\Views\kompras\add.php on line 29.
+ 1 APPPATH\Views\kompras\add.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategoria', 'C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\kompras\\add.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\kompras\\add.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('kompras/add', [], true)
+ 5 APPPATH\Controllers\Kompras.php(44): view('kompras/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\kompras->create()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kompras))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-02 05:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 05:21:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 05:21:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 05:23:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 05:23:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-12-02 05:23:50 --> mysqli_sql_exception: Unknown column 'naran_kompras' in 'field list' in C:\laragon\www\Sistema_Manajementu_Loja\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\laragon\www\Sistema_Manajementu_Loja\app\Models\M_Kompras.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\Sistema_Manajementu_Loja\app\Controllers\Kompras.php(56): App\Models\M_Kompras->insertKompras(Array)
+#6 C:\laragon\www\Sistema_Manajementu_Loja\system\CodeIgniter.php(933): App\Controllers\kompras->store()
+#7 C:\laragon\www\Sistema_Manajementu_Loja\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kompras))
+#8 C:\laragon\www\Sistema_Manajementu_Loja\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\Sistema_Manajementu_Loja\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\Sistema_Manajementu_Loja\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\Sistema_Manajementu_Loja\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-12-02 05:23:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'naran_kompras' in 'field list'
+[Method: POST, Route: kompras/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_kompras` (`id_kompras`, `id_fornesedor`, `naran_kompras`, `deskrisaun`) VALUES (:id_kompras:, :id_fornesedor:, :naran_kompras:, :deskrisaun:)', [...], false)
+ 2 APPPATH\Models\M_Kompras.php(28): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Kompras.php(56): App\Models\M_Kompras->insertKompras([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\kompras->store()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kompras))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-02 05:23:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'naran_kompras' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_kompras` (`id_kompras`, `id_fornesedor`, `naran_kompras`, `deskrisaun`) VALUES (NULL, \'9\', NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_kompras` (`id_kompras`, `id_fornesedor`, `naran_kompras`, `deskrisaun`) VALUES (NULL, \'9\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_kompras` (`id_kompras`, `id_fornesedor`, `naran_kompras`, `deskrisaun`) VALUES (:id_kompras:, :id_fornesedor:, :naran_kompras:, :deskrisaun:)', [...], false)
+ 4 APPPATH\Models\M_Kompras.php(28): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Kompras.php(56): App\Models\M_Kompras->insertKompras([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\kompras->store()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kompras))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-02 05:23:50 --> [Caused by] mysqli_sql_exception: Unknown column 'naran_kompras' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `tbl_kompras` (`id_kompras`, `id_fornesedor`, `naran_kompras`, `deskrisaun`) VALUES (NULL, \'9\', NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_kompras` (`id_kompras`, `id_fornesedor`, `naran_kompras`, `deskrisaun`) VALUES (NULL, \'9\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_kompras` (`id_kompras`, `id_fornesedor`, `naran_kompras`, `deskrisaun`) VALUES (NULL, \'9\', NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_kompras` (`id_kompras`, `id_fornesedor`, `naran_kompras`, `deskrisaun`) VALUES (:id_kompras:, :id_fornesedor:, :naran_kompras:, :deskrisaun:)', [...], false)
+ 5 APPPATH\Models\M_Kompras.php(28): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Kompras.php(56): App\Models\M_Kompras->insertKompras([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\kompras->store()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kompras))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-12-02 05:25:29 --> mysqli_sql_exception: Unknown column 'naran_kompras' in 'field list' in C:\laragon\www\Sistema_Manajementu_Loja\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\laragon\www\Sistema_Manajementu_Loja\app\Models\M_Kompras.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\Sistema_Manajementu_Loja\app\Controllers\Kompras.php(59): App\Models\M_Kompras->insertKompras(Array)
+#6 C:\laragon\www\Sistema_Manajementu_Loja\system\CodeIgniter.php(933): App\Controllers\kompras->store()
+#7 C:\laragon\www\Sistema_Manajementu_Loja\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kompras))
+#8 C:\laragon\www\Sistema_Manajementu_Loja\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\Sistema_Manajementu_Loja\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\Sistema_Manajementu_Loja\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\Sistema_Manajementu_Loja\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-12-02 05:25:29 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'naran_kompras' in 'field list'
+[Method: POST, Route: kompras/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_kompras` (`id_kompras`, `kode_kompras`, `data_kompras`, `naran_kompras`, `id_fornesedor`, `total`) VALUES (:id_kompras:, :kode_kompras:, :data_kompras:, :naran_kompras:, :id_fornesedor:, :total:)', [...], false)
+ 2 APPPATH\Models\M_Kompras.php(28): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Kompras.php(59): App\Models\M_Kompras->insertKompras([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\kompras->store()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kompras))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-02 05:25:29 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'naran_kompras' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_kompras` (`id_kompras`, `kode_kompras`, `data_kompras`, `naran_kompras`, `id_fornesedor`, `total`) VALUES (NULL, \'K001\', \'2025-12-24\', NULL, \'9\', \'5000\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_kompras` (`id_kompras`, `kode_kompras`, `data_kompras`, `naran_kompras`, `id_fornesedor`, `total`) VALUES (NULL, \'K001\', \'2025-12-24\', NULL, \'9\', \'5000\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_kompras` (`id_kompras`, `kode_kompras`, `data_kompras`, `naran_kompras`, `id_fornesedor`, `total`) VALUES (:id_kompras:, :kode_kompras:, :data_kompras:, :naran_kompras:, :id_fornesedor:, :total:)', [...], false)
+ 4 APPPATH\Models\M_Kompras.php(28): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Kompras.php(59): App\Models\M_Kompras->insertKompras([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\kompras->store()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kompras))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-02 05:25:29 --> [Caused by] mysqli_sql_exception: Unknown column 'naran_kompras' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `tbl_kompras` (`id_kompras`, `kode_kompras`, `data_kompras`, `naran_kompras`, `id_fornesedor`, `total`) VALUES (NULL, \'K001\', \'2025-12-24\', NULL, \'9\', \'5000\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_kompras` (`id_kompras`, `kode_kompras`, `data_kompras`, `naran_kompras`, `id_fornesedor`, `total`) VALUES (NULL, \'K001\', \'2025-12-24\', NULL, \'9\', \'5000\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_kompras` (`id_kompras`, `kode_kompras`, `data_kompras`, `naran_kompras`, `id_fornesedor`, `total`) VALUES (NULL, \'K001\', \'2025-12-24\', NULL, \'9\', \'5000\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_kompras` (`id_kompras`, `kode_kompras`, `data_kompras`, `naran_kompras`, `id_fornesedor`, `total`) VALUES (:id_kompras:, :kode_kompras:, :data_kompras:, :naran_kompras:, :id_fornesedor:, :total:)', [...], false)
+ 5 APPPATH\Models\M_Kompras.php(28): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Kompras.php(59): App\Models\M_Kompras->insertKompras([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\kompras->store()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kompras))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-02 05:26:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 05:26:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 05:26:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-02 05:26:49 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "kompras/update.php"
+[Method: GET, Route: kompras/edit/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kompras/update.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('kompras/update', [], true)
+ 3 APPPATH\Controllers\Kompras.php(72): view('kompras/update', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\kompras->edit('1')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kompras))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-02 05:30:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-12-02 05:30:40 --> mysqli_sql_exception: Not unique table/alias: 'sub' in C:\laragon\www\Sistema_Manajementu_Loja\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `sub`.`i...', 0)
+#1 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sub`.`i...')
+#2 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sub`.`i...')
+#3 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sub`.`i...', Array, false)
+#4 C:\laragon\www\Sistema_Manajementu_Loja\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Sistema_Manajementu_Loja\system\BaseModel.php(715): CodeIgniter\Model->doFirst()
+#6 C:\laragon\www\Sistema_Manajementu_Loja\app\Controllers\Subkategoria.php(106): CodeIgniter\BaseModel->first()
+#7 C:\laragon\www\Sistema_Manajementu_Loja\system\CodeIgniter.php(933): App\Controllers\Subkategoria->delete('4')
+#8 C:\laragon\www\Sistema_Manajementu_Loja\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Subkategoria))
+#9 C:\laragon\www\Sistema_Manajementu_Loja\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Sistema_Manajementu_Loja\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\Sistema_Manajementu_Loja\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\laragon\www\Sistema_Manajementu_Loja\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-12-02 05:30:40 --> CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'sub'
+[Method: GET, Route: subkategoria/delete/4]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sub`.`id_subkategoria`, `sub`.`naran_kategoria`, `sub`.`naran_subkategoria`
+FROM (`tbl_subkategoria`, `tbl_produtu` as `sub`)
+JOIN `tbl_kategoria` as `ko` ON `ko`.`id_kategoria` = `p`.`id_kategoria`
+JOIN `tbl_subkategoria` as `sub` ON `sub`.`id_subkategoria` = `p`.`id_subkategoria`
+WHERE `p`.`id_produtu` = :p.id_produtu:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Subkategoria.php(106): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Subkategoria->delete('4')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Subkategoria))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-02 05:30:40 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'sub'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sub`.`id_subkategoria`, `sub`.`naran_kategoria`, `sub`.`naran_subkategoria`
+FROM (`tbl_subkategoria`, `tbl_produtu` as `sub`)
+JOIN `tbl_kategoria` as `ko` ON `ko`.`id_kategoria` = `p`.`id_kategoria`
+JOIN `tbl_subkategoria` as `sub` ON `sub`.`id_subkategoria` = `p`.`id_subkategoria`
+WHERE `p`.`id_produtu` = \'4\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sub`.`id_subkategoria`, `sub`.`naran_kategoria`, `sub`.`naran_subkategoria`
+FROM (`tbl_subkategoria`, `tbl_produtu` as `sub`)
+JOIN `tbl_kategoria` as `ko` ON `ko`.`id_kategoria` = `p`.`id_kategoria`
+JOIN `tbl_subkategoria` as `sub` ON `sub`.`id_subkategoria` = `p`.`id_subkategoria`
+WHERE `p`.`id_produtu` = \'4\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sub`.`id_subkategoria`, `sub`.`naran_kategoria`, `sub`.`naran_subkategoria`
+FROM (`tbl_subkategoria`, `tbl_produtu` as `sub`)
+JOIN `tbl_kategoria` as `ko` ON `ko`.`id_kategoria` = `p`.`id_kategoria`
+JOIN `tbl_subkategoria` as `sub` ON `sub`.`id_subkategoria` = `p`.`id_subkategoria`
+WHERE `p`.`id_produtu` = :p.id_produtu:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\Subkategoria.php(106): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Subkategoria->delete('4')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Subkategoria))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-02 05:30:40 --> [Caused by] mysqli_sql_exception: Not unique table/alias: 'sub'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `sub`.`id_subkategoria`, `sub`.`naran_kategoria`, `sub`.`naran_subkategoria`
+FROM (`tbl_subkategoria`, `tbl_produtu` as `sub`)
+JOIN `tbl_kategoria` as `ko` ON `ko`.`id_kategoria` = `p`.`id_kategoria`
+JOIN `tbl_subkategoria` as `sub` ON `sub`.`id_subkategoria` = `p`.`id_subkategoria`
+WHERE `p`.`id_produtu` = \'4\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sub`.`id_subkategoria`, `sub`.`naran_kategoria`, `sub`.`naran_subkategoria`
+FROM (`tbl_subkategoria`, `tbl_produtu` as `sub`)
+JOIN `tbl_kategoria` as `ko` ON `ko`.`id_kategoria` = `p`.`id_kategoria`
+JOIN `tbl_subkategoria` as `sub` ON `sub`.`id_subkategoria` = `p`.`id_subkategoria`
+WHERE `p`.`id_produtu` = \'4\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sub`.`id_subkategoria`, `sub`.`naran_kategoria`, `sub`.`naran_subkategoria`
+FROM (`tbl_subkategoria`, `tbl_produtu` as `sub`)
+JOIN `tbl_kategoria` as `ko` ON `ko`.`id_kategoria` = `p`.`id_kategoria`
+JOIN `tbl_subkategoria` as `sub` ON `sub`.`id_subkategoria` = `p`.`id_subkategoria`
+WHERE `p`.`id_produtu` = \'4\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sub`.`id_subkategoria`, `sub`.`naran_kategoria`, `sub`.`naran_subkategoria`
+FROM (`tbl_subkategoria`, `tbl_produtu` as `sub`)
+JOIN `tbl_kategoria` as `ko` ON `ko`.`id_kategoria` = `p`.`id_kategoria`
+JOIN `tbl_subkategoria` as `sub` ON `sub`.`id_subkategoria` = `p`.`id_subkategoria`
+WHERE `p`.`id_produtu` = :p.id_produtu:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Subkategoria.php(106): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Subkategoria->delete('4')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Subkategoria))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-02 05:30:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 05:32:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-12-02 05:32:42 --> mysqli_sql_exception: Unknown column 'sub.naran_kategoria' in 'field list' in C:\laragon\www\Sistema_Manajementu_Loja\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `sub`.`i...', 0)
+#1 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sub`.`i...')
+#2 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sub`.`i...')
+#3 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sub`.`i...', Array, false)
+#4 C:\laragon\www\Sistema_Manajementu_Loja\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Sistema_Manajementu_Loja\system\BaseModel.php(715): CodeIgniter\Model->doFirst()
+#6 C:\laragon\www\Sistema_Manajementu_Loja\app\Controllers\Subkategoria.php(105): CodeIgniter\BaseModel->first()
+#7 C:\laragon\www\Sistema_Manajementu_Loja\system\CodeIgniter.php(933): App\Controllers\Subkategoria->delete('4')
+#8 C:\laragon\www\Sistema_Manajementu_Loja\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Subkategoria))
+#9 C:\laragon\www\Sistema_Manajementu_Loja\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Sistema_Manajementu_Loja\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\Sistema_Manajementu_Loja\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\laragon\www\Sistema_Manajementu_Loja\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-12-02 05:32:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'sub.naran_kategoria' in 'field list'
+[Method: GET, Route: subkategoria/delete/4]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sub`.`id_subkategoria`, `sub`.`naran_kategoria`, `sub`.`naran_subkategoria`, `sub`.`deskrisaun`
+FROM (`tbl_subkategoria`, `tbl_produtu` as `sub`)
+JOIN `tbl_kategoria` as `ko` ON `ko`.`id_kategoria` = `sub`.`id_kategoria`
+WHERE `sub`.`id_subkategoria` = :sub.id_subkategoria:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Subkategoria.php(105): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Subkategoria->delete('4')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Subkategoria))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-02 05:32:42 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'sub.naran_kategoria' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sub`.`id_subkategoria`, `sub`.`naran_kategoria`, `sub`.`naran_subkategoria`, `sub`.`deskrisaun`
+FROM (`tbl_subkategoria`, `tbl_produtu` as `sub`)
+JOIN `tbl_kategoria` as `ko` ON `ko`.`id_kategoria` = `sub`.`id_kategoria`
+WHERE `sub`.`id_subkategoria` = \'4\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sub`.`id_subkategoria`, `sub`.`naran_kategoria`, `sub`.`naran_subkategoria`, `sub`.`deskrisaun`
+FROM (`tbl_subkategoria`, `tbl_produtu` as `sub`)
+JOIN `tbl_kategoria` as `ko` ON `ko`.`id_kategoria` = `sub`.`id_kategoria`
+WHERE `sub`.`id_subkategoria` = \'4\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sub`.`id_subkategoria`, `sub`.`naran_kategoria`, `sub`.`naran_subkategoria`, `sub`.`deskrisaun`
+FROM (`tbl_subkategoria`, `tbl_produtu` as `sub`)
+JOIN `tbl_kategoria` as `ko` ON `ko`.`id_kategoria` = `sub`.`id_kategoria`
+WHERE `sub`.`id_subkategoria` = :sub.id_subkategoria:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\Subkategoria.php(105): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Subkategoria->delete('4')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Subkategoria))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-02 05:32:42 --> [Caused by] mysqli_sql_exception: Unknown column 'sub.naran_kategoria' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `sub`.`id_subkategoria`, `sub`.`naran_kategoria`, `sub`.`naran_subkategoria`, `sub`.`deskrisaun`
+FROM (`tbl_subkategoria`, `tbl_produtu` as `sub`)
+JOIN `tbl_kategoria` as `ko` ON `ko`.`id_kategoria` = `sub`.`id_kategoria`
+WHERE `sub`.`id_subkategoria` = \'4\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sub`.`id_subkategoria`, `sub`.`naran_kategoria`, `sub`.`naran_subkategoria`, `sub`.`deskrisaun`
+FROM (`tbl_subkategoria`, `tbl_produtu` as `sub`)
+JOIN `tbl_kategoria` as `ko` ON `ko`.`id_kategoria` = `sub`.`id_kategoria`
+WHERE `sub`.`id_subkategoria` = \'4\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sub`.`id_subkategoria`, `sub`.`naran_kategoria`, `sub`.`naran_subkategoria`, `sub`.`deskrisaun`
+FROM (`tbl_subkategoria`, `tbl_produtu` as `sub`)
+JOIN `tbl_kategoria` as `ko` ON `ko`.`id_kategoria` = `sub`.`id_kategoria`
+WHERE `sub`.`id_subkategoria` = \'4\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sub`.`id_subkategoria`, `sub`.`naran_kategoria`, `sub`.`naran_subkategoria`, `sub`.`deskrisaun`
+FROM (`tbl_subkategoria`, `tbl_produtu` as `sub`)
+JOIN `tbl_kategoria` as `ko` ON `ko`.`id_kategoria` = `sub`.`id_kategoria`
+WHERE `sub`.`id_subkategoria` = :sub.id_subkategoria:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Subkategoria.php(105): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Subkategoria->delete('4')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Subkategoria))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-12-02 05:34:20 --> mysqli_sql_exception: Unknown column 'sub.naran_subkategoria' in 'field list' in C:\laragon\www\Sistema_Manajementu_Loja\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `sub`.`i...', 0)
+#1 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sub`.`i...')
+#2 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sub`.`i...')
+#3 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sub`.`i...', Array, false)
+#4 C:\laragon\www\Sistema_Manajementu_Loja\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Sistema_Manajementu_Loja\system\BaseModel.php(715): CodeIgniter\Model->doFirst()
+#6 C:\laragon\www\Sistema_Manajementu_Loja\app\Controllers\Subkategoria.php(105): CodeIgniter\BaseModel->first()
+#7 C:\laragon\www\Sistema_Manajementu_Loja\system\CodeIgniter.php(933): App\Controllers\Subkategoria->delete('4')
+#8 C:\laragon\www\Sistema_Manajementu_Loja\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Subkategoria))
+#9 C:\laragon\www\Sistema_Manajementu_Loja\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Sistema_Manajementu_Loja\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\Sistema_Manajementu_Loja\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\laragon\www\Sistema_Manajementu_Loja\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-12-02 05:34:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'sub.naran_subkategoria' in 'field list'
+[Method: GET, Route: subkategoria/delete/4]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sub`.`id_subkategoria`, `ka`.`naran_kategoria`, `sub`.`naran_subkategoria`, `sub`.`deskrisaun`
+FROM (`tbl_subkategoria`, `tbl_produtu` as `sub`)
+JOIN `tbl_kategoria` as `ka` ON `ka`.`id_kategoria` = `sub`.`id_kategoria`
+WHERE `sub`.`id_subkategoria` = :sub.id_subkategoria:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Subkategoria.php(105): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Subkategoria->delete('4')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Subkategoria))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-02 05:34:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'sub.naran_subkategoria' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sub`.`id_subkategoria`, `ka`.`naran_kategoria`, `sub`.`naran_subkategoria`, `sub`.`deskrisaun`
+FROM (`tbl_subkategoria`, `tbl_produtu` as `sub`)
+JOIN `tbl_kategoria` as `ka` ON `ka`.`id_kategoria` = `sub`.`id_kategoria`
+WHERE `sub`.`id_subkategoria` = \'4\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sub`.`id_subkategoria`, `ka`.`naran_kategoria`, `sub`.`naran_subkategoria`, `sub`.`deskrisaun`
+FROM (`tbl_subkategoria`, `tbl_produtu` as `sub`)
+JOIN `tbl_kategoria` as `ka` ON `ka`.`id_kategoria` = `sub`.`id_kategoria`
+WHERE `sub`.`id_subkategoria` = \'4\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sub`.`id_subkategoria`, `ka`.`naran_kategoria`, `sub`.`naran_subkategoria`, `sub`.`deskrisaun`
+FROM (`tbl_subkategoria`, `tbl_produtu` as `sub`)
+JOIN `tbl_kategoria` as `ka` ON `ka`.`id_kategoria` = `sub`.`id_kategoria`
+WHERE `sub`.`id_subkategoria` = :sub.id_subkategoria:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\Subkategoria.php(105): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Subkategoria->delete('4')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Subkategoria))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-02 05:34:20 --> [Caused by] mysqli_sql_exception: Unknown column 'sub.naran_subkategoria' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `sub`.`id_subkategoria`, `ka`.`naran_kategoria`, `sub`.`naran_subkategoria`, `sub`.`deskrisaun`
+FROM (`tbl_subkategoria`, `tbl_produtu` as `sub`)
+JOIN `tbl_kategoria` as `ka` ON `ka`.`id_kategoria` = `sub`.`id_kategoria`
+WHERE `sub`.`id_subkategoria` = \'4\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sub`.`id_subkategoria`, `ka`.`naran_kategoria`, `sub`.`naran_subkategoria`, `sub`.`deskrisaun`
+FROM (`tbl_subkategoria`, `tbl_produtu` as `sub`)
+JOIN `tbl_kategoria` as `ka` ON `ka`.`id_kategoria` = `sub`.`id_kategoria`
+WHERE `sub`.`id_subkategoria` = \'4\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sub`.`id_subkategoria`, `ka`.`naran_kategoria`, `sub`.`naran_subkategoria`, `sub`.`deskrisaun`
+FROM (`tbl_subkategoria`, `tbl_produtu` as `sub`)
+JOIN `tbl_kategoria` as `ka` ON `ka`.`id_kategoria` = `sub`.`id_kategoria`
+WHERE `sub`.`id_subkategoria` = \'4\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sub`.`id_subkategoria`, `ka`.`naran_kategoria`, `sub`.`naran_subkategoria`, `sub`.`deskrisaun`
+FROM (`tbl_subkategoria`, `tbl_produtu` as `sub`)
+JOIN `tbl_kategoria` as `ka` ON `ka`.`id_kategoria` = `sub`.`id_kategoria`
+WHERE `sub`.`id_subkategoria` = :sub.id_subkategoria:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Subkategoria.php(105): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Subkategoria->delete('4')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Subkategoria))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-02 05:34:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 05:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 05:35:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 05:35:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 05:35:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 05:35:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 05:35:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 05:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 05:35:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 05:38:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 05:38:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 05:38:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 05:38:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 05:38:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 05:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-02 05:39:41 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "kompras/update.php"
+[Method: GET, Route: kompras/edit/2]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kompras/update.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('kompras/update', [], true)
+ 3 APPPATH\Controllers\Kompras.php(72): view('kompras/update', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\kompras->edit('2')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kompras))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-02 05:40:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 05:40:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 05:41:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 05:41:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-02 05:41:09 --> ErrorException: Undefined array key "naran_kompras"
+[Method: GET, Route: kompras/edit/2]
+in APPPATH\Views\kompras\update.php on line 29.
+ 1 APPPATH\Views\kompras\update.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "naran_kompras"', 'C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\kompras\\update.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\kompras\\update.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('kompras/update', [], true)
+ 5 APPPATH\Controllers\Kompras.php(72): view('kompras/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\kompras->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kompras))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-02 05:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-02 05:41:49 --> ErrorException: Undefined array key "naran_kompras"
+[Method: GET, Route: kompras/edit/2]
+in APPPATH\Views\kompras\update.php on line 29.
+ 1 APPPATH\Views\kompras\update.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "naran_kompras"', 'C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\kompras\\update.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\kompras\\update.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('kompras/update', [], true)
+ 5 APPPATH\Controllers\Kompras.php(72): view('kompras/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\kompras->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kompras))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-02 05:42:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-02 05:42:14 --> ErrorException: Undefined variable $kategoria
+[Method: GET, Route: kompras/edit/2]
+in APPPATH\Views\kompras\update.php on line 33.
+ 1 APPPATH\Views\kompras\update.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategoria', 'C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\kompras\\update.php', 33)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\kompras\\update.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('kompras/update', [], true)
+ 5 APPPATH\Controllers\Kompras.php(72): view('kompras/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\kompras->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kompras))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-02 05:43:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-02 05:43:24 --> ErrorException: Undefined array key "deskrisaun"
+[Method: GET, Route: kompras/edit/2]
+in APPPATH\Views\kompras\update.php on line 34.
+ 1 APPPATH\Views\kompras\update.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "deskrisaun"', 'C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\kompras\\update.php', 34)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\kompras\\update.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('kompras/update', [], true)
+ 5 APPPATH\Controllers\Kompras.php(72): view('kompras/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\kompras->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kompras))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-02 05:43:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-02 05:43:51 --> ErrorException: Undefined variable $kategoria
+[Method: GET, Route: kompras/edit/2]
+in APPPATH\Views\kompras\update.php on line 38.
+ 1 APPPATH\Views\kompras\update.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategoria', 'C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\kompras\\update.php', 38)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\kompras\\update.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('kompras/update', [], true)
+ 5 APPPATH\Controllers\Kompras.php(72): view('kompras/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\kompras->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kompras))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-02 05:44:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 05:44:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 05:44:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 05:58:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 05:58:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 05:58:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 05:58:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 05:58:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 05:58:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 05:58:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 05:58:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 06:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-12-02 06:19:23 --> mysqli_sql_exception: Unknown column 'tbl_kompras_item.sub_total' in 'field list' in C:\laragon\www\Sistema_Manajementu_Loja\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tbl_kom...', 0)
+#1 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_kom...')
+#2 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_kom...')
+#3 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_kom...', Array, false)
+#4 C:\laragon\www\Sistema_Manajementu_Loja\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Sistema_Manajementu_Loja\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Sistema_Manajementu_Loja\app\Controllers\Kompras_item.php(33): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Sistema_Manajementu_Loja\system\CodeIgniter.php(933): App\Controllers\kompras_item->index()
+#8 C:\laragon\www\Sistema_Manajementu_Loja\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kompras_item))
+#9 C:\laragon\www\Sistema_Manajementu_Loja\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Sistema_Manajementu_Loja\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\Sistema_Manajementu_Loja\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\laragon\www\Sistema_Manajementu_Loja\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-12-02 06:19:23 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_kompras_item.sub_total' in 'field list'
+[Method: GET, Route: kompras_item]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_kompras_item`.`id_item`, `tbl_kompras`.`kode_kompras`, `tbl_produtu`.`naran_produtu`, `tbl_kompras_item`.`presu_modal`, `tbl_kompras_item`.`kuantidade`, `tbl_kompras_item`.`sub_total`
+FROM `tbl_kompras_item`
+JOIN `tbl_kompras` ON `tbl_kompras`.`id_kompras` = `tbl_kompras_item`.`id_kompras`
+JOIN `tbl_produtu` ON `tbl_produtu`.`id_produtu` = `tbl_kompras_item`.`id_produtu`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Kompras_item.php(33): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\kompras_item->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kompras_item))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-02 06:19:23 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_kompras_item.sub_total' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_kompras_item`.`id_item`, `tbl_kompras`.`kode_kompras`, `tbl_produtu`.`naran_produtu`, `tbl_kompras_item`.`presu_modal`, `tbl_kompras_item`.`kuantidade`, `tbl_kompras_item`.`sub_total`
+FROM `tbl_kompras_item`
+JOIN `tbl_kompras` ON `tbl_kompras`.`id_kompras` = `tbl_kompras_item`.`id_kompras`
+JOIN `tbl_produtu` ON `tbl_produtu`.`id_produtu` = `tbl_kompras_item`.`id_produtu`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_kompras_item`.`id_item`, `tbl_kompras`.`kode_kompras`, `tbl_produtu`.`naran_produtu`, `tbl_kompras_item`.`presu_modal`, `tbl_kompras_item`.`kuantidade`, `tbl_kompras_item`.`sub_total`
+FROM `tbl_kompras_item`
+JOIN `tbl_kompras` ON `tbl_kompras`.`id_kompras` = `tbl_kompras_item`.`id_kompras`
+JOIN `tbl_produtu` ON `tbl_produtu`.`id_produtu` = `tbl_kompras_item`.`id_produtu`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_kompras_item`.`id_item`, `tbl_kompras`.`kode_kompras`, `tbl_produtu`.`naran_produtu`, `tbl_kompras_item`.`presu_modal`, `tbl_kompras_item`.`kuantidade`, `tbl_kompras_item`.`sub_total`
+FROM `tbl_kompras_item`
+JOIN `tbl_kompras` ON `tbl_kompras`.`id_kompras` = `tbl_kompras_item`.`id_kompras`
+JOIN `tbl_produtu` ON `tbl_produtu`.`id_produtu` = `tbl_kompras_item`.`id_produtu`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Kompras_item.php(33): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\kompras_item->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kompras_item))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-02 06:19:23 --> [Caused by] mysqli_sql_exception: Unknown column 'tbl_kompras_item.sub_total' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tbl_kompras_item`.`id_item`, `tbl_kompras`.`kode_kompras`, `tbl_produtu`.`naran_produtu`, `tbl_kompras_item`.`presu_modal`, `tbl_kompras_item`.`kuantidade`, `tbl_kompras_item`.`sub_total`
+FROM `tbl_kompras_item`
+JOIN `tbl_kompras` ON `tbl_kompras`.`id_kompras` = `tbl_kompras_item`.`id_kompras`
+JOIN `tbl_produtu` ON `tbl_produtu`.`id_produtu` = `tbl_kompras_item`.`id_produtu`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_kompras_item`.`id_item`, `tbl_kompras`.`kode_kompras`, `tbl_produtu`.`naran_produtu`, `tbl_kompras_item`.`presu_modal`, `tbl_kompras_item`.`kuantidade`, `tbl_kompras_item`.`sub_total`
+FROM `tbl_kompras_item`
+JOIN `tbl_kompras` ON `tbl_kompras`.`id_kompras` = `tbl_kompras_item`.`id_kompras`
+JOIN `tbl_produtu` ON `tbl_produtu`.`id_produtu` = `tbl_kompras_item`.`id_produtu`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_kompras_item`.`id_item`, `tbl_kompras`.`kode_kompras`, `tbl_produtu`.`naran_produtu`, `tbl_kompras_item`.`presu_modal`, `tbl_kompras_item`.`kuantidade`, `tbl_kompras_item`.`sub_total`
+FROM `tbl_kompras_item`
+JOIN `tbl_kompras` ON `tbl_kompras`.`id_kompras` = `tbl_kompras_item`.`id_kompras`
+JOIN `tbl_produtu` ON `tbl_produtu`.`id_produtu` = `tbl_kompras_item`.`id_produtu`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_kompras_item`.`id_item`, `tbl_kompras`.`kode_kompras`, `tbl_produtu`.`naran_produtu`, `tbl_kompras_item`.`presu_modal`, `tbl_kompras_item`.`kuantidade`, `tbl_kompras_item`.`sub_total`
+FROM `tbl_kompras_item`
+JOIN `tbl_kompras` ON `tbl_kompras`.`id_kompras` = `tbl_kompras_item`.`id_kompras`
+JOIN `tbl_produtu` ON `tbl_produtu`.`id_produtu` = `tbl_kompras_item`.`id_produtu`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Kompras_item.php(33): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\kompras_item->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kompras_item))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-02 06:19:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-02 06:19:59 --> ErrorException: Undefined variable $produtu
+[Method: GET, Route: kompras_item]
+in APPPATH\Views\kompras_item\index.php on line 36.
+ 1 APPPATH\Views\kompras_item\index.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produtu', 'C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\kompras_item\\index.php', 36)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\kompras_item\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('kompras_item/index', [], true)
+ 5 APPPATH\Controllers\Kompras_item.php(35): view('kompras_item/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\kompras_item->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kompras_item))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-02 06:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 06:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 06:20:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 06:20:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-02 06:22:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "kompras_item/add.php"
+[Method: GET, Route: kompras_item/add]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kompras_item/add.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('kompras_item/add', [], true)
+ 3 APPPATH\Controllers\Kompras_item.php(56): view('kompras_item/add', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\kompras_item->create()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kompras_item))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-02 06:32:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-02 06:32:21 --> ErrorException: Undefined array key "naran_kompras"
+[Method: GET, Route: kompras_item/add]
+in APPPATH\Views\kompras_item\add.php on line 31.
+ 1 APPPATH\Views\kompras_item\add.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "naran_kompras"', 'C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\kompras_item\\add.php', 31)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\kompras_item\\add.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('kompras_item/add', [], true)
+ 5 APPPATH\Controllers\Kompras_item.php(56): view('kompras_item/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\kompras_item->create()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kompras_item))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-02 06:32:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 06:33:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 06:33:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-02 06:33:01 --> ErrorException: Undefined variable $fornesedor
+[Method: GET, Route: kompras_item/add]
+in APPPATH\Views\kompras_item\add.php on line 38.
+ 1 APPPATH\Views\kompras_item\add.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $fornesedor', 'C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\kompras_item\\add.php', 38)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\kompras_item\\add.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('kompras_item/add', [], true)
+ 5 APPPATH\Controllers\Kompras_item.php(56): view('kompras_item/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\kompras_item->create()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kompras_item))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-02 06:33:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 06:33:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 06:34:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 06:34:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 06:35:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 06:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 06:36:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-12-02 06:37:33 --> mysqli_sql_exception: Unknown column 'kode_produtu' in 'field list' in C:\laragon\www\Sistema_Manajementu_Loja\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\laragon\www\Sistema_Manajementu_Loja\app\Models\M_Kompras_item.php(34): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\Sistema_Manajementu_Loja\app\Controllers\Kompras_item.php(71): App\Models\M_Kompras_item->insertkomprasitem(Array)
+#6 C:\laragon\www\Sistema_Manajementu_Loja\system\CodeIgniter.php(933): App\Controllers\kompras_item->store()
+#7 C:\laragon\www\Sistema_Manajementu_Loja\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kompras_item))
+#8 C:\laragon\www\Sistema_Manajementu_Loja\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\Sistema_Manajementu_Loja\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\Sistema_Manajementu_Loja\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\Sistema_Manajementu_Loja\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-12-02 06:37:33 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'kode_produtu' in 'field list'
+[Method: POST, Route: kompras_item/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_kompras_item` (`kode_produtu`, `naran_produtu`, `id_kategoria`, `id_subkategoria`, `presu_modal`, `presu_vendas`, `stok`) VALUES (:kode_produtu:, :naran_produtu:, :id_kategoria:, :id_subkategoria:, :presu_modal:, :presu_vendas:, :stok:)', [...], false)
+ 2 APPPATH\Models\M_Kompras_item.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Kompras_item.php(71): App\Models\M_Kompras_item->insertkomprasitem([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\kompras_item->store()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kompras_item))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-02 06:37:33 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'kode_produtu' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_kompras_item` (`kode_produtu`, `naran_produtu`, `id_kategoria`, `id_subkategoria`, `presu_modal`, `presu_vendas`, `stok`) VALUES (NULL, NULL, NULL, NULL, \'1500\', NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_kompras_item` (`kode_produtu`, `naran_produtu`, `id_kategoria`, `id_subkategoria`, `presu_modal`, `presu_vendas`, `stok`) VALUES (NULL, NULL, NULL, NULL, \'1500\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_kompras_item` (`kode_produtu`, `naran_produtu`, `id_kategoria`, `id_subkategoria`, `presu_modal`, `presu_vendas`, `stok`) VALUES (:kode_produtu:, :naran_produtu:, :id_kategoria:, :id_subkategoria:, :presu_modal:, :presu_vendas:, :stok:)', [...], false)
+ 4 APPPATH\Models\M_Kompras_item.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Kompras_item.php(71): App\Models\M_Kompras_item->insertkomprasitem([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\kompras_item->store()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kompras_item))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-02 06:37:33 --> [Caused by] mysqli_sql_exception: Unknown column 'kode_produtu' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `tbl_kompras_item` (`kode_produtu`, `naran_produtu`, `id_kategoria`, `id_subkategoria`, `presu_modal`, `presu_vendas`, `stok`) VALUES (NULL, NULL, NULL, NULL, \'1500\', NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_kompras_item` (`kode_produtu`, `naran_produtu`, `id_kategoria`, `id_subkategoria`, `presu_modal`, `presu_vendas`, `stok`) VALUES (NULL, NULL, NULL, NULL, \'1500\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_kompras_item` (`kode_produtu`, `naran_produtu`, `id_kategoria`, `id_subkategoria`, `presu_modal`, `presu_vendas`, `stok`) VALUES (NULL, NULL, NULL, NULL, \'1500\', NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_kompras_item` (`kode_produtu`, `naran_produtu`, `id_kategoria`, `id_subkategoria`, `presu_modal`, `presu_vendas`, `stok`) VALUES (:kode_produtu:, :naran_produtu:, :id_kategoria:, :id_subkategoria:, :presu_modal:, :presu_vendas:, :stok:)', [...], false)
+ 5 APPPATH\Models\M_Kompras_item.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Kompras_item.php(71): App\Models\M_Kompras_item->insertkomprasitem([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\kompras_item->store()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kompras_item))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-02 06:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 06:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-02 06:39:32 --> ErrorException: Undefined array key "id_produtu"
+[Method: GET, Route: kompras_item]
+in APPPATH\Views\kompras_item\index.php on line 49.
+ 1 APPPATH\Views\kompras_item\index.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_produtu"', 'C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\kompras_item\\index.php', 49)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\kompras_item\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('kompras_item/index', [], true)
+ 5 APPPATH\Controllers\Kompras_item.php(35): view('kompras_item/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\kompras_item->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kompras_item))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-02 06:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 06:42:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-02 06:42:03 --> ErrorException: Undefined array key "id_produtu"
+[Method: GET, Route: kompras_item/edit/1]
+in APPPATH\Views\produtu\update.php on line 25.
+ 1 APPPATH\Views\produtu\update.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_produtu"', 'C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\produtu\\update.php', 25)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\produtu\\update.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('produtu/update', [], true)
+ 5 APPPATH\Controllers\Kompras_item.php(86): view('produtu/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\kompras_item->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kompras_item))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-02 06:43:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 06:43:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 06:44:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 06:44:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 06:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 06:44:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 06:44:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 06:44:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 06:44:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 06:44:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 06:48:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 06:48:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 06:48:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 06:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 06:48:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 06:48:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 06:48:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 06:48:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 06:48:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 06:48:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 06:48:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 06:48:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 06:48:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 06:49:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 06:49:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 06:50:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 06:54:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 06:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 06:56:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-02 06:56:34 --> ErrorException: Undefined array key "id_produtu"
+[Method: GET, Route: kompras_item/edit/1]
+in APPPATH\Views\produtu\update.php on line 25.
+ 1 APPPATH\Views\produtu\update.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_produtu"', 'C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\produtu\\update.php', 25)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\produtu\\update.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('produtu/update', [], true)
+ 5 APPPATH\Controllers\Kompras_item.php(86): view('produtu/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\kompras_item->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kompras_item))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-02 06:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-02 06:59:15 --> ErrorException: Undefined array key "kode_produtu"
+[Method: GET, Route: kompras_item/edit/1]
+in APPPATH\Views\produtu\update.php on line 34.
+ 1 APPPATH\Views\produtu\update.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode_produtu"', 'C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\produtu\\update.php', 34)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\produtu\\update.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('produtu/update', [], true)
+ 5 APPPATH\Controllers\Kompras_item.php(86): view('produtu/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\kompras_item->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kompras_item))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-02 07:00:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-02 07:00:34 --> ErrorException: Undefined variable $kategoria
+[Method: GET, Route: kompras_item/edit/1]
+in APPPATH\Views\produtu\update.php on line 33.
+ 1 APPPATH\Views\produtu\update.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategoria', 'C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\produtu\\update.php', 33)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\produtu\\update.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('produtu/update', [], true)
+ 5 APPPATH\Controllers\Kompras_item.php(86): view('produtu/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\kompras_item->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kompras_item))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-02 07:00:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-02 07:00:45 --> ErrorException: Undefined variable $kategoria
+[Method: GET, Route: kompras_item/edit/1]
+in APPPATH\Views\produtu\update.php on line 41.
+ 1 APPPATH\Views\produtu\update.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategoria', 'C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\produtu\\update.php', 41)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\produtu\\update.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('produtu/update', [], true)
+ 5 APPPATH\Controllers\Kompras_item.php(86): view('produtu/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\kompras_item->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kompras_item))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-02 07:01:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-02 07:01:18 --> ErrorException: Undefined variable $subkategoria
+[Method: GET, Route: kompras_item/edit/1]
+in APPPATH\Views\produtu\update.php on line 50.
+ 1 APPPATH\Views\produtu\update.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $subkategoria', 'C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\produtu\\update.php', 50)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\produtu\\update.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('produtu/update', [], true)
+ 5 APPPATH\Controllers\Kompras_item.php(86): view('produtu/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\kompras_item->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kompras_item))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-02 07:04:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 07:05:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 07:05:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 07:06:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 07:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 07:08:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 07:08:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 07:08:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 07:17:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 07:17:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 07:18:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 07:18:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 07:18:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 07:25:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 07:26:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 07:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 07:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 07:26:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 07:26:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 07:26:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 07:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 07:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 07:28:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 07:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 07:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 07:33:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 07:33:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 07:33:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 07:33:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 07:33:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 07:33:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 07:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 11:06:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 11:06:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 11:06:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 11:06:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 11:06:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 11:09:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 11:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 11:10:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 11:10:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 11:10:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 11:10:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 11:11:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 11:11:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 11:11:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 11:11:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 11:22:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 11:22:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 11:22:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 11:22:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 11:22:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 11:22:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 11:22:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 11:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 11:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 11:22:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 11:22:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 11:22:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 11:25:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 11:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-02 11:33:04 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "vendas/add.php"
+[Method: GET, Route: vendas/add]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vendas/add.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('vendas/add', [], true)
+ 3 APPPATH\Controllers\Vendas.php(45): view('vendas/add', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendas->create()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendas))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-02 11:33:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-02 11:33:38 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "vendas/add.php"
+[Method: GET, Route: vendas/add]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vendas/add.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('vendas/add', [], true)
+ 3 APPPATH\Controllers\Vendas.php(45): view('vendas/add', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendas->create()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendas))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-02 11:33:41 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "vendas/add.php"
+[Method: GET, Route: vendas/add]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vendas/add.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('vendas/add', [], true)
+ 3 APPPATH\Controllers\Vendas.php(45): view('vendas/add', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendas->create()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendas))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-02 11:33:56 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "vendas/add.php"
+[Method: GET, Route: vendas/add]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vendas/add.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('vendas/add', [], true)
+ 3 APPPATH\Controllers\Vendas.php(45): view('vendas/add', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendas->create()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendas))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-02 11:34:36 --> ErrorException: Undefined variable $kostumer
+[Method: GET, Route: vendas/add]
+in APPPATH\Views\vendas\add.php on line 22.
+ 1 APPPATH\Views\vendas\add.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kostumer', 'C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\vendas\\add.php', 22)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\vendas\\add.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('vendas/add', [], true)
+ 5 APPPATH\Controllers\Vendas.php(45): view('vendas/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendas->create()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendas))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-02 11:36:26 --> ErrorException: Undefined variable $kostumer
+[Method: GET, Route: vendas/add]
+in APPPATH\Views\vendas\add.php on line 22.
+ 1 APPPATH\Views\vendas\add.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kostumer', 'C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\vendas\\add.php', 22)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\vendas\\add.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('vendas/add', [], true)
+ 5 APPPATH\Controllers\Vendas.php(45): view('vendas/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendas->create()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendas))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-02 11:39:00 --> ErrorException: Undefined variable $kostumer
+[Method: GET, Route: vendas/add]
+in APPPATH\Views\vendas\add.php on line 20.
+ 1 APPPATH\Views\vendas\add.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kostumer', 'C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\vendas\\add.php', 20)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\vendas\\add.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('vendas/add', [], true)
+ 5 APPPATH\Controllers\Vendas.php(45): view('vendas/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendas->create()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendas))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-02 11:40:55 --> ErrorException: Undefined variable $kostumer
+[Method: GET, Route: vendas/add]
+in APPPATH\Views\vendas\add.php on line 20.
+ 1 APPPATH\Views\vendas\add.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kostumer', 'C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\vendas\\add.php', 20)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\vendas\\add.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('vendas/add', [], true)
+ 5 APPPATH\Controllers\Vendas.php(45): view('vendas/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendas->create()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendas))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-02 11:40:56 --> ErrorException: Undefined variable $kostumer
+[Method: GET, Route: vendas/add]
+in APPPATH\Views\vendas\add.php on line 20.
+ 1 APPPATH\Views\vendas\add.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kostumer', 'C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\vendas\\add.php', 20)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\vendas\\add.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('vendas/add', [], true)
+ 5 APPPATH\Controllers\Vendas.php(45): view('vendas/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendas->create()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendas))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-02 11:43:19 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/main.php"
+[Method: GET, Route: vendas/add]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/main.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layouts/main', [], true)
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('vendas/add', [], true)
+ 4 APPPATH\Controllers\Vendas.php(45): view('vendas/add', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Vendas->create()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendas))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-02 11:43:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-02 11:43:57 --> ErrorException: Undefined variable $kategoria
+[Method: GET, Route: vendas/add]
+in APPPATH\Views\vendas\add.php on line 29.
+ 1 APPPATH\Views\vendas\add.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategoria', 'C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\vendas\\add.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\vendas\\add.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('vendas/add', [], true)
+ 5 APPPATH\Controllers\Vendas.php(45): view('vendas/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Vendas->create()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendas))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-02 11:46:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-02 11:46:30 --> ErrorException: Undefined array key "kostumer"
+[Method: GET, Route: vendas/add]
+in APPPATH\Views\vendas\add.php on line 30.
+ 1 APPPATH\Views\vendas\add.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kostumer"', 'C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\vendas\\add.php', 30)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\vendas\\add.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('vendas/add', [], true)
+ 5 APPPATH\Controllers\Vendas.php(45): view('vendas/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Vendas->create()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendas))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-02 11:46:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-02 11:46:52 --> ErrorException: Undefined variable $kategoria
+[Method: GET, Route: vendas/add]
+in APPPATH\Views\vendas\add.php on line 29.
+ 1 APPPATH\Views\vendas\add.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategoria', 'C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\vendas\\add.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\vendas\\add.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('vendas/add', [], true)
+ 5 APPPATH\Controllers\Vendas.php(45): view('vendas/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Vendas->create()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendas))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-02 11:47:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 11:47:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 11:50:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 11:52:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 11:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 11:52:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 11:52:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 11:52:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 11:52:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 11:52:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 11:52:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 11:52:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 11:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 11:53:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 11:53:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 11:54:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 11:56:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 11:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:03:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:03:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:06:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:06:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:06:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:08:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:08:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:08:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:10:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:10:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:10:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:10:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:10:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:11:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:11:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:11:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:11:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:12:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:12:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:13:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:13:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:14:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:15:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:15:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:15:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:15:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:15:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:15:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:16:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:22:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:23:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:25:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:26:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-02 12:26:47 --> ErrorException: Undefined array key "deskrisaun"
+[Method: GET, Route: vendas/edit/5]
+in APPPATH\Views\vendas\update.php on line 47.
+ 1 APPPATH\Views\vendas\update.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "deskrisaun"', 'C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\vendas\\update.php', 47)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\vendas\\update.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('vendas/update', [], true)
+ 5 APPPATH\Controllers\Vendas.php(74): view('vendas/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Vendas->edit('5')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendas))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-02 12:29:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-02 12:29:44 --> ErrorException: Undefined variable $data
+[Method: GET, Route: vendas/edit/5]
+in APPPATH\Views\vendas\update.php on line 52.
+ 1 APPPATH\Views\vendas\update.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\vendas\\update.php', 52)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\vendas\\update.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('vendas/update', [], true)
+ 5 APPPATH\Controllers\Vendas.php(74): view('vendas/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Vendas->edit('5')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendas))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-02 12:30:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-02 12:30:26 --> ErrorException: Undefined array key "metodu_pagu"
+[Method: GET, Route: vendas/edit/5]
+in APPPATH\Views\vendas\update.php on line 52.
+ 1 APPPATH\Views\vendas\update.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "metodu_pagu"', 'C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\vendas\\update.php', 52)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\vendas\\update.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('vendas/update', [], true)
+ 5 APPPATH\Controllers\Vendas.php(74): view('vendas/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Vendas->edit('5')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendas))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-02 12:31:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-02 12:31:43 --> ErrorException: Undefined variable $data
+[Method: GET, Route: vendas/edit/5]
+in APPPATH\Views\vendas\update.php on line 65.
+ 1 APPPATH\Views\vendas\update.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\vendas\\update.php', 65)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\vendas\\update.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('vendas/update', [], true)
+ 5 APPPATH\Controllers\Vendas.php(74): view('vendas/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Vendas->edit('5')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendas))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-02 12:32:44 --> ParseError: syntax error, unexpected variable "$vendas"
+[Method: GET, Route: vendas/edit/5]
+in APPPATH\Views\vendas\update.php on line 11.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('vendas/update', [], true)
+ 3 APPPATH\Controllers\Vendas.php(74): view('vendas/update', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Vendas->edit('5')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendas))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-02 12:33:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:33:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:33:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:33:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:34:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:34:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:34:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:34:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:34:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:34:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:34:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:34:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:34:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:34:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:36:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:36:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:36:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:36:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:36:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:38:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:38:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:38:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:40:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-12-02 12:40:05 --> mysqli_sql_exception: Unknown column 'sub.id_vendas' in 'where clause' in C:\laragon\www\Sistema_Manajementu_Loja\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `ve`.`id...', 0)
+#1 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ve`.`id...')
+#2 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ve`.`id...')
+#3 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `ve`.`id...', Array, false)
+#4 C:\laragon\www\Sistema_Manajementu_Loja\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Sistema_Manajementu_Loja\system\BaseModel.php(715): CodeIgniter\Model->doFirst()
+#6 C:\laragon\www\Sistema_Manajementu_Loja\app\Controllers\Vendas.php(111): CodeIgniter\BaseModel->first()
+#7 C:\laragon\www\Sistema_Manajementu_Loja\system\CodeIgniter.php(933): App\Controllers\Vendas->delete('5')
+#8 C:\laragon\www\Sistema_Manajementu_Loja\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendas))
+#9 C:\laragon\www\Sistema_Manajementu_Loja\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Sistema_Manajementu_Loja\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\Sistema_Manajementu_Loja\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\laragon\www\Sistema_Manajementu_Loja\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-12-02 12:40:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'sub.id_vendas' in 'where clause'
+[Method: GET, Route: vendas/delete/5]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `ve`.`id_vendas`, `ve`.`kode_vendas`, `ko`.`naran_kostumer`, `ve`.`data_vendas`, `ve`.`total`, `ve`.`metodu_pagu`, `ve`.`estatutu`
+FROM (`tbl_vendas`, `tbl_vendas` as `ve`)
+JOIN `tbl_kostumer` as `ko` ON `ko`.`id_kostumer` = `ve`.`id_kostumer`
+WHERE `sub`.`id_vendas` = :sub.id_vendas:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Vendas.php(111): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Vendas->delete('5')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendas))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-02 12:40:05 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'sub.id_vendas' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ve`.`id_vendas`, `ve`.`kode_vendas`, `ko`.`naran_kostumer`, `ve`.`data_vendas`, `ve`.`total`, `ve`.`metodu_pagu`, `ve`.`estatutu`
+FROM (`tbl_vendas`, `tbl_vendas` as `ve`)
+JOIN `tbl_kostumer` as `ko` ON `ko`.`id_kostumer` = `ve`.`id_kostumer`
+WHERE `sub`.`id_vendas` = \'5\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ve`.`id_vendas`, `ve`.`kode_vendas`, `ko`.`naran_kostumer`, `ve`.`data_vendas`, `ve`.`total`, `ve`.`metodu_pagu`, `ve`.`estatutu`
+FROM (`tbl_vendas`, `tbl_vendas` as `ve`)
+JOIN `tbl_kostumer` as `ko` ON `ko`.`id_kostumer` = `ve`.`id_kostumer`
+WHERE `sub`.`id_vendas` = \'5\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `ve`.`id_vendas`, `ve`.`kode_vendas`, `ko`.`naran_kostumer`, `ve`.`data_vendas`, `ve`.`total`, `ve`.`metodu_pagu`, `ve`.`estatutu`
+FROM (`tbl_vendas`, `tbl_vendas` as `ve`)
+JOIN `tbl_kostumer` as `ko` ON `ko`.`id_kostumer` = `ve`.`id_kostumer`
+WHERE `sub`.`id_vendas` = :sub.id_vendas:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\Vendas.php(111): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Vendas->delete('5')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendas))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-02 12:40:05 --> [Caused by] mysqli_sql_exception: Unknown column 'sub.id_vendas' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `ve`.`id_vendas`, `ve`.`kode_vendas`, `ko`.`naran_kostumer`, `ve`.`data_vendas`, `ve`.`total`, `ve`.`metodu_pagu`, `ve`.`estatutu`
+FROM (`tbl_vendas`, `tbl_vendas` as `ve`)
+JOIN `tbl_kostumer` as `ko` ON `ko`.`id_kostumer` = `ve`.`id_kostumer`
+WHERE `sub`.`id_vendas` = \'5\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ve`.`id_vendas`, `ve`.`kode_vendas`, `ko`.`naran_kostumer`, `ve`.`data_vendas`, `ve`.`total`, `ve`.`metodu_pagu`, `ve`.`estatutu`
+FROM (`tbl_vendas`, `tbl_vendas` as `ve`)
+JOIN `tbl_kostumer` as `ko` ON `ko`.`id_kostumer` = `ve`.`id_kostumer`
+WHERE `sub`.`id_vendas` = \'5\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ve`.`id_vendas`, `ve`.`kode_vendas`, `ko`.`naran_kostumer`, `ve`.`data_vendas`, `ve`.`total`, `ve`.`metodu_pagu`, `ve`.`estatutu`
+FROM (`tbl_vendas`, `tbl_vendas` as `ve`)
+JOIN `tbl_kostumer` as `ko` ON `ko`.`id_kostumer` = `ve`.`id_kostumer`
+WHERE `sub`.`id_vendas` = \'5\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `ve`.`id_vendas`, `ve`.`kode_vendas`, `ko`.`naran_kostumer`, `ve`.`data_vendas`, `ve`.`total`, `ve`.`metodu_pagu`, `ve`.`estatutu`
+FROM (`tbl_vendas`, `tbl_vendas` as `ve`)
+JOIN `tbl_kostumer` as `ko` ON `ko`.`id_kostumer` = `ve`.`id_kostumer`
+WHERE `sub`.`id_vendas` = :sub.id_vendas:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Vendas.php(111): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Vendas->delete('5')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendas))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-02 12:40:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:40:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

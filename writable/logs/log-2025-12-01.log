@@ -1,0 +1,895 @@
+DEBUG - 2025-12-01 06:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 06:26:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 06:26:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-01 06:26:12 --> ErrorException: Undefined array key "id_produtu"
+[Method: GET, Route: produtu/edit/22]
+in APPPATH\Views\produtu\update.php on line 25.
+ 1 APPPATH\Views\produtu\update.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_produtu"', 'C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\produtu\\update.php', 25)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\produtu\\update.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('produtu/update', [], true)
+ 5 APPPATH\Controllers\Produtu.php(93): view('produtu/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produtu->edit('22')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtu))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-01 06:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-01 06:28:02 --> ErrorException: Undefined array key "naran_kategoria"
+[Method: GET, Route: produtu/edit/22]
+in APPPATH\Views\produtu\update.php on line 34.
+ 1 APPPATH\Views\produtu\update.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "naran_kategoria"', 'C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\produtu\\update.php', 34)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\produtu\\update.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('produtu/update', [], true)
+ 5 APPPATH\Controllers\Produtu.php(93): view('produtu/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produtu->edit('22')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtu))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-01 06:33:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-01 06:33:51 --> ErrorException: Undefined array key "id_kategoria"
+[Method: GET, Route: produtu/edit/22]
+in APPPATH\Views\produtu\update.php on line 39.
+ 1 APPPATH\Views\produtu\update.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kategoria"', 'C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\produtu\\update.php', 39)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\produtu\\update.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('produtu/update', [], true)
+ 5 APPPATH\Controllers\Produtu.php(93): view('produtu/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produtu->edit('22')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtu))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-01 06:34:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-01 06:34:37 --> ErrorException: Undefined array key "id_kategoria"
+[Method: GET, Route: produtu/edit/22]
+in APPPATH\Views\produtu\update.php on line 39.
+ 1 APPPATH\Views\produtu\update.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kategoria"', 'C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\produtu\\update.php', 39)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\produtu\\update.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('produtu/update', [], true)
+ 5 APPPATH\Controllers\Produtu.php(93): view('produtu/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produtu->edit('22')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtu))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-01 06:35:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-01 06:35:03 --> ErrorException: Undefined array key "id_kategoria"
+[Method: GET, Route: produtu/edit/22]
+in APPPATH\Views\produtu\update.php on line 39.
+ 1 APPPATH\Views\produtu\update.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kategoria"', 'C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\produtu\\update.php', 39)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\produtu\\update.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('produtu/update', [], true)
+ 5 APPPATH\Controllers\Produtu.php(93): view('produtu/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produtu->edit('22')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtu))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-01 06:37:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-01 06:37:10 --> ErrorException: Undefined array key "id_aubkategoria"
+[Method: GET, Route: produtu/edit/22]
+in APPPATH\Views\produtu\update.php on line 48.
+ 1 APPPATH\Views\produtu\update.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_aubkategoria"', 'C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\produtu\\update.php', 48)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\produtu\\update.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('produtu/update', [], true)
+ 5 APPPATH\Controllers\Produtu.php(93): view('produtu/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produtu->edit('22')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtu))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-01 06:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-01 06:37:34 --> ErrorException: Undefined array key "presu_vendas"
+[Method: GET, Route: produtu/edit/22]
+in APPPATH\Views\produtu\update.php on line 60.
+ 1 APPPATH\Views\produtu\update.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "presu_vendas"', 'C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\produtu\\update.php', 60)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\produtu\\update.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('produtu/update', [], true)
+ 5 APPPATH\Controllers\Produtu.php(93): view('produtu/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produtu->edit('22')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtu))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-01 06:38:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 06:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 06:40:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 06:42:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 06:42:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 06:43:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 06:43:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 06:43:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 06:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 06:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 06:43:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 06:43:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 06:43:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 06:43:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 06:43:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 06:43:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 06:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 06:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 06:44:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 06:44:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 06:44:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 06:44:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 06:51:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-12-01 06:51:36 --> mysqli_sql_exception: Table 'db_loja.tbl_produttu' doesn't exist in C:\laragon\www\Sistema_Manajementu_Loja\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `p`.`id_...', 0)
+#1 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`id_...')
+#2 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`id_...')
+#3 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`id_...', Array, false)
+#4 C:\laragon\www\Sistema_Manajementu_Loja\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Sistema_Manajementu_Loja\system\BaseModel.php(715): CodeIgniter\Model->doFirst()
+#6 C:\laragon\www\Sistema_Manajementu_Loja\app\Controllers\Produtu.php(139): CodeIgniter\BaseModel->first()
+#7 C:\laragon\www\Sistema_Manajementu_Loja\system\CodeIgniter.php(933): App\Controllers\Produtu->delete('22')
+#8 C:\laragon\www\Sistema_Manajementu_Loja\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtu))
+#9 C:\laragon\www\Sistema_Manajementu_Loja\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Sistema_Manajementu_Loja\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\Sistema_Manajementu_Loja\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\laragon\www\Sistema_Manajementu_Loja\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-12-01 06:51:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_loja.tbl_produttu' doesn't exist
+[Method: GET, Route: produtu/delete/22]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`id_produtu`, `p`.`kode_produtu`, `p`.`naran_produtu`, `ko`.`naran_kategoria`, `sub`.`naran_subkategoria`, `p`.`presu_modal`, `p`.`presu_vendas`, `p`.`stok`, `p`.`image`
+FROM (`tbl_produtu`, `tbl_produttu` as `p`)
+JOIN `tbl_kategoria` as `ko` ON `ko`.`id_kategoria` = `p`.`id_kategoria`
+JOIN `tbl_subkategoria` as `sub` ON `sub`.`kategoria` = `or`.`id_produtu`
+WHERE `or`.`id_produtu` = :or.id_produtu:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Produtu.php(139): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produtu->delete('22')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtu))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-01 06:51:36 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_loja.tbl_produttu' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`id_produtu`, `p`.`kode_produtu`, `p`.`naran_produtu`, `ko`.`naran_kategoria`, `sub`.`naran_subkategoria`, `p`.`presu_modal`, `p`.`presu_vendas`, `p`.`stok`, `p`.`image`
+FROM (`tbl_produtu`, `tbl_produttu` as `p`)
+JOIN `tbl_kategoria` as `ko` ON `ko`.`id_kategoria` = `p`.`id_kategoria`
+JOIN `tbl_subkategoria` as `sub` ON `sub`.`kategoria` = `or`.`id_produtu`
+WHERE `or`.`id_produtu` = \'22\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`id_produtu`, `p`.`kode_produtu`, `p`.`naran_produtu`, `ko`.`naran_kategoria`, `sub`.`naran_subkategoria`, `p`.`presu_modal`, `p`.`presu_vendas`, `p`.`stok`, `p`.`image`
+FROM (`tbl_produtu`, `tbl_produttu` as `p`)
+JOIN `tbl_kategoria` as `ko` ON `ko`.`id_kategoria` = `p`.`id_kategoria`
+JOIN `tbl_subkategoria` as `sub` ON `sub`.`kategoria` = `or`.`id_produtu`
+WHERE `or`.`id_produtu` = \'22\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`id_produtu`, `p`.`kode_produtu`, `p`.`naran_produtu`, `ko`.`naran_kategoria`, `sub`.`naran_subkategoria`, `p`.`presu_modal`, `p`.`presu_vendas`, `p`.`stok`, `p`.`image`
+FROM (`tbl_produtu`, `tbl_produttu` as `p`)
+JOIN `tbl_kategoria` as `ko` ON `ko`.`id_kategoria` = `p`.`id_kategoria`
+JOIN `tbl_subkategoria` as `sub` ON `sub`.`kategoria` = `or`.`id_produtu`
+WHERE `or`.`id_produtu` = :or.id_produtu:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\Produtu.php(139): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produtu->delete('22')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtu))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-01 06:51:36 --> [Caused by] mysqli_sql_exception: Table 'db_loja.tbl_produttu' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `p`.`id_produtu`, `p`.`kode_produtu`, `p`.`naran_produtu`, `ko`.`naran_kategoria`, `sub`.`naran_subkategoria`, `p`.`presu_modal`, `p`.`presu_vendas`, `p`.`stok`, `p`.`image`
+FROM (`tbl_produtu`, `tbl_produttu` as `p`)
+JOIN `tbl_kategoria` as `ko` ON `ko`.`id_kategoria` = `p`.`id_kategoria`
+JOIN `tbl_subkategoria` as `sub` ON `sub`.`kategoria` = `or`.`id_produtu`
+WHERE `or`.`id_produtu` = \'22\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`id_produtu`, `p`.`kode_produtu`, `p`.`naran_produtu`, `ko`.`naran_kategoria`, `sub`.`naran_subkategoria`, `p`.`presu_modal`, `p`.`presu_vendas`, `p`.`stok`, `p`.`image`
+FROM (`tbl_produtu`, `tbl_produttu` as `p`)
+JOIN `tbl_kategoria` as `ko` ON `ko`.`id_kategoria` = `p`.`id_kategoria`
+JOIN `tbl_subkategoria` as `sub` ON `sub`.`kategoria` = `or`.`id_produtu`
+WHERE `or`.`id_produtu` = \'22\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`id_produtu`, `p`.`kode_produtu`, `p`.`naran_produtu`, `ko`.`naran_kategoria`, `sub`.`naran_subkategoria`, `p`.`presu_modal`, `p`.`presu_vendas`, `p`.`stok`, `p`.`image`
+FROM (`tbl_produtu`, `tbl_produttu` as `p`)
+JOIN `tbl_kategoria` as `ko` ON `ko`.`id_kategoria` = `p`.`id_kategoria`
+JOIN `tbl_subkategoria` as `sub` ON `sub`.`kategoria` = `or`.`id_produtu`
+WHERE `or`.`id_produtu` = \'22\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`id_produtu`, `p`.`kode_produtu`, `p`.`naran_produtu`, `ko`.`naran_kategoria`, `sub`.`naran_subkategoria`, `p`.`presu_modal`, `p`.`presu_vendas`, `p`.`stok`, `p`.`image`
+FROM (`tbl_produtu`, `tbl_produttu` as `p`)
+JOIN `tbl_kategoria` as `ko` ON `ko`.`id_kategoria` = `p`.`id_kategoria`
+JOIN `tbl_subkategoria` as `sub` ON `sub`.`kategoria` = `or`.`id_produtu`
+WHERE `or`.`id_produtu` = :or.id_produtu:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Produtu.php(139): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produtu->delete('22')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtu))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-12-01 06:52:12 --> mysqli_sql_exception: Unknown column 'or.id_produtu' in 'where clause' in C:\laragon\www\Sistema_Manajementu_Loja\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `p`.`id_...', 0)
+#1 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`id_...')
+#2 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`id_...')
+#3 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`id_...', Array, false)
+#4 C:\laragon\www\Sistema_Manajementu_Loja\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Sistema_Manajementu_Loja\system\BaseModel.php(715): CodeIgniter\Model->doFirst()
+#6 C:\laragon\www\Sistema_Manajementu_Loja\app\Controllers\Produtu.php(139): CodeIgniter\BaseModel->first()
+#7 C:\laragon\www\Sistema_Manajementu_Loja\system\CodeIgniter.php(933): App\Controllers\Produtu->delete('22')
+#8 C:\laragon\www\Sistema_Manajementu_Loja\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtu))
+#9 C:\laragon\www\Sistema_Manajementu_Loja\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Sistema_Manajementu_Loja\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\Sistema_Manajementu_Loja\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\laragon\www\Sistema_Manajementu_Loja\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-12-01 06:52:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'or.id_produtu' in 'where clause'
+[Method: GET, Route: produtu/delete/22]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`id_produtu`, `p`.`kode_produtu`, `p`.`naran_produtu`, `ko`.`naran_kategoria`, `sub`.`naran_subkategoria`, `p`.`presu_modal`, `p`.`presu_vendas`, `p`.`stok`, `p`.`image`
+FROM (`tbl_produtu`, `tbl_produtu` as `p`)
+JOIN `tbl_kategoria` as `ko` ON `ko`.`id_kategoria` = `p`.`id_kategoria`
+JOIN `tbl_subkategoria` as `sub` ON `sub`.`kategoria` = `or`.`id_produtu`
+WHERE `or`.`id_produtu` = :or.id_produtu:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Produtu.php(139): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produtu->delete('22')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtu))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-01 06:52:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'or.id_produtu' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`id_produtu`, `p`.`kode_produtu`, `p`.`naran_produtu`, `ko`.`naran_kategoria`, `sub`.`naran_subkategoria`, `p`.`presu_modal`, `p`.`presu_vendas`, `p`.`stok`, `p`.`image`
+FROM (`tbl_produtu`, `tbl_produtu` as `p`)
+JOIN `tbl_kategoria` as `ko` ON `ko`.`id_kategoria` = `p`.`id_kategoria`
+JOIN `tbl_subkategoria` as `sub` ON `sub`.`kategoria` = `or`.`id_produtu`
+WHERE `or`.`id_produtu` = \'22\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`id_produtu`, `p`.`kode_produtu`, `p`.`naran_produtu`, `ko`.`naran_kategoria`, `sub`.`naran_subkategoria`, `p`.`presu_modal`, `p`.`presu_vendas`, `p`.`stok`, `p`.`image`
+FROM (`tbl_produtu`, `tbl_produtu` as `p`)
+JOIN `tbl_kategoria` as `ko` ON `ko`.`id_kategoria` = `p`.`id_kategoria`
+JOIN `tbl_subkategoria` as `sub` ON `sub`.`kategoria` = `or`.`id_produtu`
+WHERE `or`.`id_produtu` = \'22\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`id_produtu`, `p`.`kode_produtu`, `p`.`naran_produtu`, `ko`.`naran_kategoria`, `sub`.`naran_subkategoria`, `p`.`presu_modal`, `p`.`presu_vendas`, `p`.`stok`, `p`.`image`
+FROM (`tbl_produtu`, `tbl_produtu` as `p`)
+JOIN `tbl_kategoria` as `ko` ON `ko`.`id_kategoria` = `p`.`id_kategoria`
+JOIN `tbl_subkategoria` as `sub` ON `sub`.`kategoria` = `or`.`id_produtu`
+WHERE `or`.`id_produtu` = :or.id_produtu:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\Produtu.php(139): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produtu->delete('22')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtu))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-01 06:52:12 --> [Caused by] mysqli_sql_exception: Unknown column 'or.id_produtu' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `p`.`id_produtu`, `p`.`kode_produtu`, `p`.`naran_produtu`, `ko`.`naran_kategoria`, `sub`.`naran_subkategoria`, `p`.`presu_modal`, `p`.`presu_vendas`, `p`.`stok`, `p`.`image`
+FROM (`tbl_produtu`, `tbl_produtu` as `p`)
+JOIN `tbl_kategoria` as `ko` ON `ko`.`id_kategoria` = `p`.`id_kategoria`
+JOIN `tbl_subkategoria` as `sub` ON `sub`.`kategoria` = `or`.`id_produtu`
+WHERE `or`.`id_produtu` = \'22\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`id_produtu`, `p`.`kode_produtu`, `p`.`naran_produtu`, `ko`.`naran_kategoria`, `sub`.`naran_subkategoria`, `p`.`presu_modal`, `p`.`presu_vendas`, `p`.`stok`, `p`.`image`
+FROM (`tbl_produtu`, `tbl_produtu` as `p`)
+JOIN `tbl_kategoria` as `ko` ON `ko`.`id_kategoria` = `p`.`id_kategoria`
+JOIN `tbl_subkategoria` as `sub` ON `sub`.`kategoria` = `or`.`id_produtu`
+WHERE `or`.`id_produtu` = \'22\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`id_produtu`, `p`.`kode_produtu`, `p`.`naran_produtu`, `ko`.`naran_kategoria`, `sub`.`naran_subkategoria`, `p`.`presu_modal`, `p`.`presu_vendas`, `p`.`stok`, `p`.`image`
+FROM (`tbl_produtu`, `tbl_produtu` as `p`)
+JOIN `tbl_kategoria` as `ko` ON `ko`.`id_kategoria` = `p`.`id_kategoria`
+JOIN `tbl_subkategoria` as `sub` ON `sub`.`kategoria` = `or`.`id_produtu`
+WHERE `or`.`id_produtu` = \'22\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`id_produtu`, `p`.`kode_produtu`, `p`.`naran_produtu`, `ko`.`naran_kategoria`, `sub`.`naran_subkategoria`, `p`.`presu_modal`, `p`.`presu_vendas`, `p`.`stok`, `p`.`image`
+FROM (`tbl_produtu`, `tbl_produtu` as `p`)
+JOIN `tbl_kategoria` as `ko` ON `ko`.`id_kategoria` = `p`.`id_kategoria`
+JOIN `tbl_subkategoria` as `sub` ON `sub`.`kategoria` = `or`.`id_produtu`
+WHERE `or`.`id_produtu` = :or.id_produtu:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Produtu.php(139): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produtu->delete('22')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtu))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-12-01 06:52:35 --> mysqli_sql_exception: Unknown column 'or.id_produtu' in 'where clause' in C:\laragon\www\Sistema_Manajementu_Loja\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `p`.`id_...', 0)
+#1 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`id_...')
+#2 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`id_...')
+#3 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`id_...', Array, false)
+#4 C:\laragon\www\Sistema_Manajementu_Loja\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Sistema_Manajementu_Loja\system\BaseModel.php(715): CodeIgniter\Model->doFirst()
+#6 C:\laragon\www\Sistema_Manajementu_Loja\app\Controllers\Produtu.php(139): CodeIgniter\BaseModel->first()
+#7 C:\laragon\www\Sistema_Manajementu_Loja\system\CodeIgniter.php(933): App\Controllers\Produtu->delete('22')
+#8 C:\laragon\www\Sistema_Manajementu_Loja\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtu))
+#9 C:\laragon\www\Sistema_Manajementu_Loja\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Sistema_Manajementu_Loja\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\Sistema_Manajementu_Loja\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\laragon\www\Sistema_Manajementu_Loja\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-12-01 06:52:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'or.id_produtu' in 'where clause'
+[Method: GET, Route: produtu/delete/22]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`id_produtu`, `p`.`kode_produtu`, `p`.`naran_produtu`, `ko`.`naran_kategoria`, `sub`.`naran_subkategoria`, `p`.`presu_modal`, `p`.`presu_vendas`, `p`.`stok`, `p`.`image`
+FROM (`tbl_produtu`, `tbl_produtu` as `p`)
+JOIN `tbl_kategoria` as `ko` ON `ko`.`id_kategoria` = `p`.`id_kategoria`
+JOIN `tbl_subkategoria` as `sub` ON `sub`.`kategoria` = `p`.`id_subkategoria`
+WHERE `or`.`id_produtu` = :or.id_produtu:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Produtu.php(139): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produtu->delete('22')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtu))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-01 06:52:35 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'or.id_produtu' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`id_produtu`, `p`.`kode_produtu`, `p`.`naran_produtu`, `ko`.`naran_kategoria`, `sub`.`naran_subkategoria`, `p`.`presu_modal`, `p`.`presu_vendas`, `p`.`stok`, `p`.`image`
+FROM (`tbl_produtu`, `tbl_produtu` as `p`)
+JOIN `tbl_kategoria` as `ko` ON `ko`.`id_kategoria` = `p`.`id_kategoria`
+JOIN `tbl_subkategoria` as `sub` ON `sub`.`kategoria` = `p`.`id_subkategoria`
+WHERE `or`.`id_produtu` = \'22\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`id_produtu`, `p`.`kode_produtu`, `p`.`naran_produtu`, `ko`.`naran_kategoria`, `sub`.`naran_subkategoria`, `p`.`presu_modal`, `p`.`presu_vendas`, `p`.`stok`, `p`.`image`
+FROM (`tbl_produtu`, `tbl_produtu` as `p`)
+JOIN `tbl_kategoria` as `ko` ON `ko`.`id_kategoria` = `p`.`id_kategoria`
+JOIN `tbl_subkategoria` as `sub` ON `sub`.`kategoria` = `p`.`id_subkategoria`
+WHERE `or`.`id_produtu` = \'22\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`id_produtu`, `p`.`kode_produtu`, `p`.`naran_produtu`, `ko`.`naran_kategoria`, `sub`.`naran_subkategoria`, `p`.`presu_modal`, `p`.`presu_vendas`, `p`.`stok`, `p`.`image`
+FROM (`tbl_produtu`, `tbl_produtu` as `p`)
+JOIN `tbl_kategoria` as `ko` ON `ko`.`id_kategoria` = `p`.`id_kategoria`
+JOIN `tbl_subkategoria` as `sub` ON `sub`.`kategoria` = `p`.`id_subkategoria`
+WHERE `or`.`id_produtu` = :or.id_produtu:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\Produtu.php(139): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produtu->delete('22')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtu))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-01 06:52:35 --> [Caused by] mysqli_sql_exception: Unknown column 'or.id_produtu' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `p`.`id_produtu`, `p`.`kode_produtu`, `p`.`naran_produtu`, `ko`.`naran_kategoria`, `sub`.`naran_subkategoria`, `p`.`presu_modal`, `p`.`presu_vendas`, `p`.`stok`, `p`.`image`
+FROM (`tbl_produtu`, `tbl_produtu` as `p`)
+JOIN `tbl_kategoria` as `ko` ON `ko`.`id_kategoria` = `p`.`id_kategoria`
+JOIN `tbl_subkategoria` as `sub` ON `sub`.`kategoria` = `p`.`id_subkategoria`
+WHERE `or`.`id_produtu` = \'22\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`id_produtu`, `p`.`kode_produtu`, `p`.`naran_produtu`, `ko`.`naran_kategoria`, `sub`.`naran_subkategoria`, `p`.`presu_modal`, `p`.`presu_vendas`, `p`.`stok`, `p`.`image`
+FROM (`tbl_produtu`, `tbl_produtu` as `p`)
+JOIN `tbl_kategoria` as `ko` ON `ko`.`id_kategoria` = `p`.`id_kategoria`
+JOIN `tbl_subkategoria` as `sub` ON `sub`.`kategoria` = `p`.`id_subkategoria`
+WHERE `or`.`id_produtu` = \'22\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`id_produtu`, `p`.`kode_produtu`, `p`.`naran_produtu`, `ko`.`naran_kategoria`, `sub`.`naran_subkategoria`, `p`.`presu_modal`, `p`.`presu_vendas`, `p`.`stok`, `p`.`image`
+FROM (`tbl_produtu`, `tbl_produtu` as `p`)
+JOIN `tbl_kategoria` as `ko` ON `ko`.`id_kategoria` = `p`.`id_kategoria`
+JOIN `tbl_subkategoria` as `sub` ON `sub`.`kategoria` = `p`.`id_subkategoria`
+WHERE `or`.`id_produtu` = \'22\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`id_produtu`, `p`.`kode_produtu`, `p`.`naran_produtu`, `ko`.`naran_kategoria`, `sub`.`naran_subkategoria`, `p`.`presu_modal`, `p`.`presu_vendas`, `p`.`stok`, `p`.`image`
+FROM (`tbl_produtu`, `tbl_produtu` as `p`)
+JOIN `tbl_kategoria` as `ko` ON `ko`.`id_kategoria` = `p`.`id_kategoria`
+JOIN `tbl_subkategoria` as `sub` ON `sub`.`kategoria` = `p`.`id_subkategoria`
+WHERE `or`.`id_produtu` = :or.id_produtu:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Produtu.php(139): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produtu->delete('22')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtu))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-12-01 06:52:52 --> mysqli_sql_exception: Unknown column 'sub.kategoria' in 'on clause' in C:\laragon\www\Sistema_Manajementu_Loja\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `p`.`id_...', 0)
+#1 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`id_...')
+#2 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`id_...')
+#3 C:\laragon\www\Sistema_Manajementu_Loja\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`id_...', Array, false)
+#4 C:\laragon\www\Sistema_Manajementu_Loja\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Sistema_Manajementu_Loja\system\BaseModel.php(715): CodeIgniter\Model->doFirst()
+#6 C:\laragon\www\Sistema_Manajementu_Loja\app\Controllers\Produtu.php(139): CodeIgniter\BaseModel->first()
+#7 C:\laragon\www\Sistema_Manajementu_Loja\system\CodeIgniter.php(933): App\Controllers\Produtu->delete('22')
+#8 C:\laragon\www\Sistema_Manajementu_Loja\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtu))
+#9 C:\laragon\www\Sistema_Manajementu_Loja\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Sistema_Manajementu_Loja\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\Sistema_Manajementu_Loja\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\laragon\www\Sistema_Manajementu_Loja\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-12-01 06:52:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'sub.kategoria' in 'on clause'
+[Method: GET, Route: produtu/delete/22]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`id_produtu`, `p`.`kode_produtu`, `p`.`naran_produtu`, `ko`.`naran_kategoria`, `sub`.`naran_subkategoria`, `p`.`presu_modal`, `p`.`presu_vendas`, `p`.`stok`, `p`.`image`
+FROM (`tbl_produtu`, `tbl_produtu` as `p`)
+JOIN `tbl_kategoria` as `ko` ON `ko`.`id_kategoria` = `p`.`id_kategoria`
+JOIN `tbl_subkategoria` as `sub` ON `sub`.`kategoria` = `p`.`id_subkategoria`
+WHERE `p`.`id_produtu` = :p.id_produtu:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Produtu.php(139): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produtu->delete('22')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtu))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-01 06:52:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'sub.kategoria' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`id_produtu`, `p`.`kode_produtu`, `p`.`naran_produtu`, `ko`.`naran_kategoria`, `sub`.`naran_subkategoria`, `p`.`presu_modal`, `p`.`presu_vendas`, `p`.`stok`, `p`.`image`
+FROM (`tbl_produtu`, `tbl_produtu` as `p`)
+JOIN `tbl_kategoria` as `ko` ON `ko`.`id_kategoria` = `p`.`id_kategoria`
+JOIN `tbl_subkategoria` as `sub` ON `sub`.`kategoria` = `p`.`id_subkategoria`
+WHERE `p`.`id_produtu` = \'22\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`id_produtu`, `p`.`kode_produtu`, `p`.`naran_produtu`, `ko`.`naran_kategoria`, `sub`.`naran_subkategoria`, `p`.`presu_modal`, `p`.`presu_vendas`, `p`.`stok`, `p`.`image`
+FROM (`tbl_produtu`, `tbl_produtu` as `p`)
+JOIN `tbl_kategoria` as `ko` ON `ko`.`id_kategoria` = `p`.`id_kategoria`
+JOIN `tbl_subkategoria` as `sub` ON `sub`.`kategoria` = `p`.`id_subkategoria`
+WHERE `p`.`id_produtu` = \'22\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`id_produtu`, `p`.`kode_produtu`, `p`.`naran_produtu`, `ko`.`naran_kategoria`, `sub`.`naran_subkategoria`, `p`.`presu_modal`, `p`.`presu_vendas`, `p`.`stok`, `p`.`image`
+FROM (`tbl_produtu`, `tbl_produtu` as `p`)
+JOIN `tbl_kategoria` as `ko` ON `ko`.`id_kategoria` = `p`.`id_kategoria`
+JOIN `tbl_subkategoria` as `sub` ON `sub`.`kategoria` = `p`.`id_subkategoria`
+WHERE `p`.`id_produtu` = :p.id_produtu:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\Produtu.php(139): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produtu->delete('22')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtu))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-01 06:52:52 --> [Caused by] mysqli_sql_exception: Unknown column 'sub.kategoria' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `p`.`id_produtu`, `p`.`kode_produtu`, `p`.`naran_produtu`, `ko`.`naran_kategoria`, `sub`.`naran_subkategoria`, `p`.`presu_modal`, `p`.`presu_vendas`, `p`.`stok`, `p`.`image`
+FROM (`tbl_produtu`, `tbl_produtu` as `p`)
+JOIN `tbl_kategoria` as `ko` ON `ko`.`id_kategoria` = `p`.`id_kategoria`
+JOIN `tbl_subkategoria` as `sub` ON `sub`.`kategoria` = `p`.`id_subkategoria`
+WHERE `p`.`id_produtu` = \'22\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`id_produtu`, `p`.`kode_produtu`, `p`.`naran_produtu`, `ko`.`naran_kategoria`, `sub`.`naran_subkategoria`, `p`.`presu_modal`, `p`.`presu_vendas`, `p`.`stok`, `p`.`image`
+FROM (`tbl_produtu`, `tbl_produtu` as `p`)
+JOIN `tbl_kategoria` as `ko` ON `ko`.`id_kategoria` = `p`.`id_kategoria`
+JOIN `tbl_subkategoria` as `sub` ON `sub`.`kategoria` = `p`.`id_subkategoria`
+WHERE `p`.`id_produtu` = \'22\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`id_produtu`, `p`.`kode_produtu`, `p`.`naran_produtu`, `ko`.`naran_kategoria`, `sub`.`naran_subkategoria`, `p`.`presu_modal`, `p`.`presu_vendas`, `p`.`stok`, `p`.`image`
+FROM (`tbl_produtu`, `tbl_produtu` as `p`)
+JOIN `tbl_kategoria` as `ko` ON `ko`.`id_kategoria` = `p`.`id_kategoria`
+JOIN `tbl_subkategoria` as `sub` ON `sub`.`kategoria` = `p`.`id_subkategoria`
+WHERE `p`.`id_produtu` = \'22\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`id_produtu`, `p`.`kode_produtu`, `p`.`naran_produtu`, `ko`.`naran_kategoria`, `sub`.`naran_subkategoria`, `p`.`presu_modal`, `p`.`presu_vendas`, `p`.`stok`, `p`.`image`
+FROM (`tbl_produtu`, `tbl_produtu` as `p`)
+JOIN `tbl_kategoria` as `ko` ON `ko`.`id_kategoria` = `p`.`id_kategoria`
+JOIN `tbl_subkategoria` as `sub` ON `sub`.`kategoria` = `p`.`id_subkategoria`
+WHERE `p`.`id_produtu` = :p.id_produtu:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Produtu.php(139): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produtu->delete('22')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtu))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-01 06:53:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 06:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 06:53:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 06:53:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 06:55:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 06:56:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 06:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 06:58:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:00:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:00:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:00:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:00:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:11:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:11:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:12:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:12:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:12:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:12:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:12:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:14:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:14:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:14:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:14:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:14:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:14:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:15:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:15:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:15:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:15:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:15:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:16:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:16:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:17:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:17:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:17:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:17:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:17:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:17:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:18:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:18:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:18:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:18:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:18:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:18:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:19:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:19:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:19:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:19:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:19:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:20:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:20:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:23:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:23:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:23:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:23:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:24:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:24:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 07:24:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 10:54:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 10:54:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 10:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 10:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 10:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 10:58:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 10:58:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 10:58:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 10:58:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 10:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 10:58:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:02:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:02:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:02:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:02:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:02:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:03:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:03:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:03:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:03:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:03:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:03:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:03:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:03:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:03:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:04:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:04:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:04:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:04:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-01 11:05:01 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: produtu]
+in APPPATH\Views\produtu\index.php on line 58.
+ 1 APPPATH\Views\produtu\index.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\produtu\\index.php', 58)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\produtu\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('produtu/index', [], true)
+ 5 APPPATH\Controllers\Produtu.php(30): view('produtu/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produtu->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtu))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-01 11:05:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:05:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:06:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:06:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:07:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-01 11:07:30 --> ErrorException: Undefined array key "id_costumer"
+[Method: GET, Route: produtu]
+in APPPATH\Views\produtu\index.php on line 58.
+ 1 APPPATH\Views\produtu\index.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_costumer"', 'C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\produtu\\index.php', 58)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\produtu\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('produtu/index', [], true)
+ 5 APPPATH\Controllers\Produtu.php(30): view('produtu/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produtu->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtu))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-01 11:07:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:09:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-01 11:09:26 --> ErrorException: Undefined array key "id_kostumer"
+[Method: GET, Route: produtu]
+in APPPATH\Views\produtu\index.php on line 58.
+ 1 APPPATH\Views\produtu\index.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kostumer"', 'C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\produtu\\index.php', 58)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\produtu\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('produtu/index', [], true)
+ 5 APPPATH\Controllers\Produtu.php(30): view('produtu/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produtu->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtu))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-01 11:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:10:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:14:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:14:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:15:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:16:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:16:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:16:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:16:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:16:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:16:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:17:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:17:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:17:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:17:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:17:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:18:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:18:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:18:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:18:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:18:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:21:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:21:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:27:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:28:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:28:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:28:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-01 11:44:40 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "fornesedor/index.php"
+[Method: GET, Route: fornesedor]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('fornesedor/index.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('fornesedor/index', [], true)
+ 3 APPPATH\Controllers\Fornesedor.php(21): view('fornesedor/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Fornesedor->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fornesedor))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-01 11:46:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-01 11:46:43 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "fornesedor/add.php"
+[Method: GET, Route: fornesedor/add]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('fornesedor/add.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('fornesedor/add', [], true)
+ 3 APPPATH\Controllers\Fornesedor.php(34): view('fornesedor/add')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Fornesedor->create()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fornesedor))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-01 11:46:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:49:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:49:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:51:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:51:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:52:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-01 11:52:32 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\M_Fornesedor::insertkostumer
+[Method: POST, Route: fornesedor/store]
+in SYSTEMPATH\Model.php on line 927.
+ 1 APPPATH\Controllers\Fornesedor.php(50): CodeIgniter\Model->__call('insertkostumer', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Fornesedor->store()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fornesedor))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-01 11:52:55 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\M_Fornesedor::insertkostumer
+[Method: POST, Route: fornesedor/store]
+in SYSTEMPATH\Model.php on line 927.
+ 1 APPPATH\Controllers\Fornesedor.php(50): CodeIgniter\Model->__call('insertkostumer', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Fornesedor->store()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fornesedor))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-01 11:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:53:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:53:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:53:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:56:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:56:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 11:56:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:02:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:02:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:02:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:07:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:07:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:07:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:07:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:08:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:08:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:08:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:08:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:08:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:09:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:09:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:12:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:12:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:13:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:16:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:16:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:16:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:16:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:16:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:17:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:18:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:18:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:18:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:18:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:18:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:22:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:23:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-01 12:23:24 --> ErrorException: Undefined variable $kostumer
+[Method: GET, Route: fornesedor/edit/8]
+in APPPATH\Views\fornesedor\update.php on line 24.
+ 1 APPPATH\Views\fornesedor\update.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kostumer', 'C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\fornesedor\\update.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\fornesedor\\update.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('fornesedor/update', [], true)
+ 5 APPPATH\Controllers\Fornesedor.php(62): view('fornesedor/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Fornesedor->edit('8')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fornesedor))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-01 12:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-01 12:23:44 --> ErrorException: Undefined variable $estatutu
+[Method: GET, Route: fornesedor/edit/8]
+in APPPATH\Views\fornesedor\update.php on line 56.
+ 1 APPPATH\Views\fornesedor\update.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $estatutu', 'C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\fornesedor\\update.php', 56)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\fornesedor\\update.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('fornesedor/update', [], true)
+ 5 APPPATH\Controllers\Fornesedor.php(62): view('fornesedor/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Fornesedor->edit('8')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fornesedor))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-01 12:23:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-01 12:23:55 --> ErrorException: Undefined variable $estatutu
+[Method: GET, Route: fornesedor/edit/8]
+in APPPATH\Views\fornesedor\update.php on line 56.
+ 1 APPPATH\Views\fornesedor\update.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $estatutu', 'C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\fornesedor\\update.php', 56)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Sistema_Manajementu_Loja\\app\\Views\\fornesedor\\update.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('fornesedor/update', [], true)
+ 5 APPPATH\Controllers\Fornesedor.php(62): view('fornesedor/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Fornesedor->edit('8')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fornesedor))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-01 12:24:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:25:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:25:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:25:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:25:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:26:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:26:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:26:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:26:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:26:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:26:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:30:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:30:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:30:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:30:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:30:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:30:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:31:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:31:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:31:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:31:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:31:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 12:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
