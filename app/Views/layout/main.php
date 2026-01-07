@@ -275,12 +275,12 @@
 
 
             <!-- parte code sweetalert2 -->
-            <link href="<?= base_url();; ?>public/sweetalert2/sweetalert2.min.css" rel="stylesheet">
-            <script src="<?= base_url();; ?>public/sweetalert2/sweetalert2.min.js"></script>
+            <link href="<?= base_url();  ?>public/sweetalert2/sweetalert2.min.css" rel="stylesheet">
+            <script src="<?= base_url(); ?>public/sweetalert2/sweetalert2.min.js"></script>
 
 
             <!-- pagination and show entries -->
-            <script src="<?= base_url();; ?>public/assets/js/tampilan_tabel.js"></script>
+            <script src="<?= base_url(); ?>public/assets/js/tampilan_tabel.js"></script>
 
 
             <!-- animasaun informatsaun -->
@@ -298,7 +298,7 @@
                 }
                 $(document).on('click', '#btn-hamos', function(e) {
 
-                    e.preventDefault();;
+                    e.preventDefault();
                     const link = $(this).attr('href');
                     Swal.fire({
                         icon: 'question',
